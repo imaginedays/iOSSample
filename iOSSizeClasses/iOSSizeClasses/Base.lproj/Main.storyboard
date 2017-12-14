@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="29O-RY-Cmn">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Sample-->
+        <scene sceneID="Kms-7K-88n">
+            <objects>
+                <viewController id="NIL-io-vDf" customClass="SampleListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fi5-dw-biY"/>
+                        <viewControllerLayoutGuide type="bottom" id="d1z-TO-zn2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PgA-Mi-w0t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sample" id="RVc-kG-hK9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9zm-8N-5Zr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="522"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -107,27 +126,27 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="Aad-FY-nSE"/>
-                                <exclude reference="rrt-Rc-qpu"/>
-                                <exclude reference="hEd-YR-L6b"/>
-                                <exclude reference="m6b-qo-MJR"/>
                                 <exclude reference="9AO-7I-WPi"/>
                                 <exclude reference="Npr-iC-Ufi"/>
                                 <exclude reference="t7b-od-7et"/>
+                                <exclude reference="hEd-YR-L6b"/>
+                                <exclude reference="m6b-qo-MJR"/>
+                                <exclude reference="Aad-FY-nSE"/>
+                                <exclude reference="rrt-Rc-qpu"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <exclude reference="sP4-ZV-h1I"/>
-                                <include reference="Aad-FY-nSE"/>
-                                <exclude reference="PXr-oR-iQB"/>
-                                <include reference="rrt-Rc-qpu"/>
-                                <exclude reference="CDL-71-p8g"/>
-                                <include reference="hEd-YR-L6b"/>
-                                <include reference="m6b-qo-MJR"/>
                                 <include reference="9AO-7I-WPi"/>
                                 <include reference="Npr-iC-Ufi"/>
                                 <include reference="t7b-od-7et"/>
+                                <exclude reference="CDL-71-p8g"/>
+                                <include reference="hEd-YR-L6b"/>
+                                <include reference="m6b-qo-MJR"/>
+                                <include reference="Aad-FY-nSE"/>
+                                <exclude reference="PXr-oR-iQB"/>
+                                <include reference="rrt-Rc-qpu"/>
+                                <exclude reference="sP4-ZV-h1I"/>
                                 <exclude reference="7OS-wc-8EQ"/>
                                 <exclude reference="BRZ-7e-cEO"/>
                                 <exclude reference="IZV-5r-xPB"/>
@@ -148,6 +167,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="326" y="1217"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B9D-23-bgq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="29O-RY-Cmn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Exw-Z9-UMN">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NIL-io-vDf" kind="relationship" relationship="rootViewController" id="Ymo-rk-Yvq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dci-mj-keq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-702.39999999999998" y="521.67487684729065"/>
         </scene>
     </scenes>
     <resources>
