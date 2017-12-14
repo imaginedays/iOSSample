@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UIView *superView = self.view;
+    UIView *view1 = UIView.new;
+    view1.backgroundColor = [UIColor greenColor];
+    [superView addSubview:view1];
+    
+    UIEdgeInsets padding = UIEdgeInsetsMake(10, 10, 10, 10);
+    [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(superView).with.insets(padding);
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
