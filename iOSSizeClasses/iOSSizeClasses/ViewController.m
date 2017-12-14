@@ -29,6 +29,7 @@
     [super viewDidLoad];
      [self addPlayerUINotifications];
     self.isPortrait = YES;
+    self.navigationItem.title = self.identifierStr;
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{

@@ -1,34 +1,18 @@
 //
-//  RWBaseViewController.m
+//  MasBasicViewController.m
 //  iOSSizeClasses
 //
 //  Created by imaginedays on 14/12/2017.
 //  Copyright © 2017 黄可. All rights reserved.
 //
 
-#import "RWBaseViewController.h"
+#import "MasBasicViewController.h"
 
-@interface RWBaseViewController ()
+@interface MasBasicViewController ()
 
 @end
 
-@implementation RWBaseViewController
-
-- (instancetype)initWithTitle:(NSString *)title andIdentifierStr:(NSString *) identifierStr{
-    if (self = [super init]) {
-        self.title = title;
-        self.identifierStr = identifierStr;
-    }
-    return self;
-}
-
-- (instancetype)initWithTitle:(NSString *)title{
-    if (self = [super init]) {
-        self.title = title;
-        self.identifierStr = @"";
-    }
-    return self;
-}
+@implementation MasBasicViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

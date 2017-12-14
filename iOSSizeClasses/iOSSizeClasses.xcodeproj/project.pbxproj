@@ -10,6 +10,7 @@
 		424904D11FE250500086152E /* RWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904D01FE250500086152E /* RWBaseViewController.m */; };
 		424904D61FE252B20086152E /* SampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904D51FE252B20086152E /* SampleListViewController.m */; };
 		424904DC1FE254CA0086152E /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904DB1FE254CA0086152E /* MasUseListViewController.m */; };
+		424904DF1FE263300086152E /* MasBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904DE1FE263300086152E /* MasBasicViewController.m */; };
 		426735A21DF50081008830DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A11DF50081008830DC /* main.m */; };
 		426735A51DF50081008830DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A41DF50081008830DC /* AppDelegate.m */; };
 		426735A81DF50081008830DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A71DF50081008830DC /* ViewController.m */; };
@@ -46,6 +47,8 @@
 		424904D51FE252B20086152E /* SampleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleListViewController.m; sourceTree = "<group>"; };
 		424904DA1FE254CA0086152E /* MasUseListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasUseListViewController.h; sourceTree = "<group>"; };
 		424904DB1FE254CA0086152E /* MasUseListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasUseListViewController.m; sourceTree = "<group>"; };
+		424904DD1FE263300086152E /* MasBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasBasicViewController.h; sourceTree = "<group>"; };
+		424904DE1FE263300086152E /* MasBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasBasicViewController.m; sourceTree = "<group>"; };
 		4267359D1DF50081008830DC /* iOSSizeClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSizeClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426735A11DF50081008830DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		426735A31DF50081008830DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 			children = (
 				424904DA1FE254CA0086152E /* MasUseListViewController.h */,
 				424904DB1FE254CA0086152E /* MasUseListViewController.m */,
+				424904DD1FE263300086152E /* MasBasicViewController.h */,
+				424904DE1FE263300086152E /* MasBasicViewController.m */,
 			);
 			name = MasonrySample;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				424904DC1FE254CA0086152E /* MasUseListViewController.m in Sources */,
+				424904DF1FE263300086152E /* MasBasicViewController.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A81DF50081008830DC /* ViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,

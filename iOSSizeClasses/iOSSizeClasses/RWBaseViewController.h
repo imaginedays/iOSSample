@@ -11,6 +11,9 @@
 
 @interface RWBaseViewController : UIViewController
 
+- (instancetype)initWithTitle:(NSString *)title andIdentifierStr:(NSString *) identifierStr;
 - (instancetype)initWithTitle:(NSString *)title;
+
+@property(nonatomic,strong) NSString *identifierStr;
 
 @end

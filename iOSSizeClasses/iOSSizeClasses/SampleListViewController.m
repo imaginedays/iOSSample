@@ -31,7 +31,7 @@
     }];
     
     self.controllers = @[
-                         [[ViewController alloc] initWithTitle:@"SizeClasses"],
+                         [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
                          [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"]
                          ];
 }
@@ -59,7 +59,11 @@
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIViewController *viewController = self.controllers[indexPath.row];
+    RWBaseViewController *viewController = self.controllers[indexPath.row];
+    if (viewController.identifierStr && viewController.identifierStr.length > 0) {
+        UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        viewController = [mainStory instantiateViewControllerWithIdentifier:viewController.identifierStr];
+    }
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
