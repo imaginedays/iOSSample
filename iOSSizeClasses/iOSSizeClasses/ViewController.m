@@ -18,32 +18,42 @@
 
 @implementation ViewController
 
+-(void)addPlayerUINotifications
+{
+    // 注册键盘通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideNotification:) name:UIKeyboardWillHideNotification object:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 注册键盘通知
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChangeFrameNotification:) name:UIKeyboardWillChangeFrameNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideNotification:) name:UIKeyboardWillHideNotification object:nil];
-    
+     [self addPlayerUINotifications];
     self.isPortrait = YES;
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [_textField resignFirstResponder];
+}
+
 // 键盘改变高度通知处理
-- (void)keyboardWillChangeFrameNotification:(NSNotification *)notification {
+- (void)keyboardWillShow:(NSNotification *)notification {
     
     
     // 获取键盘基本信息（动画时长与键盘高度）
+    __weak typeof(self) weakSelf = self;
     NSDictionary *userInfo = [notification userInfo];
-    CGRect rect = [userInfo[UIKeyboardFrameBeginUserInfoKey] CGRectValue];
+    //important
+    CGRect rect = [userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
     CGFloat keyboardHeight = CGRectGetHeight(rect);
     CGFloat keyboardDuration = [userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
     
-    // 修改下边距约束
-    _bottomConstraint.constant = keyboardHeight;
-    
+   // 修改下边距约束
+    self.bottomConstraint.constant += (keyboardHeight + _textField.frame.size.height);
     // 更新约束
     [UIView animateWithDuration:keyboardDuration animations:^{
         
-        [self.view layoutIfNeeded];
+        [weakSelf.view layoutIfNeeded];
+    
     }];
     
 }
@@ -52,16 +62,20 @@
 - (void)keyboardWillHideNotification:(NSNotification *)notification {
     
     // 获得键盘动画时长
+    __weak typeof(self) weakSelf = self;
     NSDictionary *userInfo = [notification userInfo];
+//    CGRect rect = [userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
+//    CGFloat keyboardHeight = CGRectGetHeight(rect);
     CGFloat keyboardDuration = [userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
     
     // 修改为以前的约束（距下边距20）
-    _bottomConstraint.constant = -63;
+    self.bottomConstraint.constant =  -_textField.frame.size.height;
     
     // 更新约束
     [UIView animateWithDuration:keyboardDuration animations:^{
         
-        [self.view layoutIfNeeded];
+        [weakSelf.view layoutIfNeeded];
+        
     }];
 }
 
@@ -113,7 +127,11 @@
 
 -(void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
 {
-    
+    if (previousTraitCollection) {
+        
+        
+        
+    }
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField

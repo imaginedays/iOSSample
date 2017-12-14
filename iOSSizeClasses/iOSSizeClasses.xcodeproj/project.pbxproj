@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					4267359C1DF50081008830DC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = XXKFYLM6RG;
+						DevelopmentTeam = 693F536PET;
 						ProvisioningStyle = Automatic;
 					};
 					426735B51DF50081008830DC = {
@@ -427,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XXKFYLM6RG;
+				DEVELOPMENT_TEAM = 693F536PET;
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
@@ -439,7 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XXKFYLM6RG;
+				DEVELOPMENT_TEAM = 693F536PET;
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
@@ -516,6 +516,7 @@
 				426735CC1DF50081008830DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426735CD1DF50081008830DC /* Build configuration list for PBXNativeTarget "iOSSizeClassesTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				426735CF1DF50081008830DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426735D01DF50081008830DC /* Build configuration list for PBXNativeTarget "iOSSizeClassesUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				426735D21DF50081008830DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
