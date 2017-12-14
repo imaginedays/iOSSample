@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RWBaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : RWBaseViewController
 
 @end
 

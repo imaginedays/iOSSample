@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424904D11FE250500086152E /* RWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904D01FE250500086152E /* RWBaseViewController.m */; };
 		426735A21DF50081008830DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A11DF50081008830DC /* main.m */; };
 		426735A51DF50081008830DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A41DF50081008830DC /* AppDelegate.m */; };
 		426735A81DF50081008830DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A71DF50081008830DC /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426735AE1DF50081008830DC /* LaunchScreen.storyboard */; };
 		426735BB1DF50081008830DC /* iOSSizeClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735BA1DF50081008830DC /* iOSSizeClassesTests.m */; };
 		426735C61DF50081008830DC /* iOSSizeClassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735C51DF50081008830DC /* iOSSizeClassesUITests.m */; };
+		ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		424904CE1FE24D120086152E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		424904CF1FE250500086152E /* RWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWBaseViewController.h; sourceTree = "<group>"; };
+		424904D01FE250500086152E /* RWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWBaseViewController.m; sourceTree = "<group>"; };
 		4267359D1DF50081008830DC /* iOSSizeClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSizeClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426735A11DF50081008830DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		426735A31DF50081008830DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		426735C11DF50081008830DC /* iOSSizeClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSizeClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426735C51DF50081008830DC /* iOSSizeClassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSizeClassesUITests.m; sourceTree = "<group>"; };
 		426735C71DF50081008830DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSSizeClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig"; sourceTree = "<group>"; };
+		A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424904D21FE251C60086152E /* MasonrySample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MasonrySample;
+			sourceTree = "<group>";
+		};
+		424904D31FE251FF0086152E /* SizeClassesSapmle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SizeClassesSapmle;
+			sourceTree = "<group>";
+		};
 		426735941DF50081008830DC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				426735B91DF50081008830DC /* iOSSizeClassesTests */,
 				426735C41DF50081008830DC /* iOSSizeClassesUITests */,
 				4267359E1DF50081008830DC /* Products */,
+				F557560B459FBEA4CEA81D6F /* Pods */,
+				A3177101585B3BA3CE985E49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,8 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				424904D31FE251FF0086152E /* SizeClassesSapmle */,
+				424904D21FE251C60086152E /* MasonrySample */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
 				426735A41DF50081008830DC /* AppDelegate.m */,
 				426735A61DF50081008830DC /* ViewController.h */,
@@ -110,6 +137,8 @@
 				426735AE1DF50081008830DC /* LaunchScreen.storyboard */,
 				426735B11DF50081008830DC /* Info.plist */,
 				426735A01DF50081008830DC /* Supporting Files */,
+				424904CF1FE250500086152E /* RWBaseViewController.h */,
+				424904D01FE250500086152E /* RWBaseViewController.m */,
 			);
 			path = iOSSizeClasses;
 			sourceTree = "<group>";
@@ -117,6 +146,7 @@
 		426735A01DF50081008830DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				424904CE1FE24D120086152E /* PrefixHeader.pch */,
 				426735A11DF50081008830DC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +170,23 @@
 			path = iOSSizeClassesUITests;
 			sourceTree = "<group>";
 		};
+		A3177101585B3BA3CE985E49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F557560B459FBEA4CEA81D6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */,
+				A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 426735CA1DF50081008830DC /* Build configuration list for PBXNativeTarget "iOSSizeClasses" */;
 			buildPhases = (
+				6D7E8CD2C9308109D0C7DF2D /* [CP] Check Pods Manifest.lock */,
 				426735991DF50081008830DC /* Sources */,
 				4267359A1DF50081008830DC /* Frameworks */,
 				4267359B1DF50081008830DC /* Resources */,
+				8C90F41BC89A03B270CCAF4C /* [CP] Embed Pods Frameworks */,
+				7F651A27CC55DE2D2D144DA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,11 +321,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D7E8CD2C9308109D0C7DF2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSizeClasses-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F651A27CC55DE2D2D144DA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C90F41BC89A03B270CCAF4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		426735991DF50081008830DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A81DF50081008830DC /* ViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
 				426735A21DF50081008830DC /* main.m in Sources */,
@@ -363,6 +465,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = " $(SRCROOT)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -409,6 +513,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = " $(SRCROOT)/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -425,9 +531,11 @@
 		};
 		426735CB1DF50081008830DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 693F536PET;
+				GCC_PREFIX_HEADER = iOSSizeClasses/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
@@ -437,9 +545,11 @@
 		};
 		426735CC1DF50081008830DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 693F536PET;
+				GCC_PREFIX_HEADER = iOSSizeClasses/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
