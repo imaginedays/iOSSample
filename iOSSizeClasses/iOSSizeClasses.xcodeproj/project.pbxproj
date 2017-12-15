@@ -19,6 +19,11 @@
 		426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426735AE1DF50081008830DC /* LaunchScreen.storyboard */; };
 		426735BB1DF50081008830DC /* iOSSizeClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735BA1DF50081008830DC /* iOSSizeClassesTests.m */; };
 		426735C61DF50081008830DC /* iOSSizeClassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735C51DF50081008830DC /* iOSSizeClassesUITests.m */; };
+		42AC85911FE3705200CDDB9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85901FE3705200CDDB9B /* AVFoundation.framework */; };
+		42AC85931FE3705900CDDB9B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85921FE3705800CDDB9B /* CoreMedia.framework */; };
+		42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85941FE3706100CDDB9B /* CoreGraphics.framework */; };
+		42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85961FE3706700CDDB9B /* CoreImage.framework */; };
+		42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85981FE3706F00CDDB9B /* UIKit.framework */; };
 		ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +70,11 @@
 		426735C11DF50081008830DC /* iOSSizeClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSizeClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426735C51DF50081008830DC /* iOSSizeClassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSizeClassesUITests.m; sourceTree = "<group>"; };
 		426735C71DF50081008830DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AC85901FE3705200CDDB9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		42AC85921FE3705800CDDB9B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		42AC85941FE3706100CDDB9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42AC85961FE3706700CDDB9B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		42AC85981FE3706F00CDDB9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSSizeClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig"; sourceTree = "<group>"; };
 		A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */,
+				42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */,
+				42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */,
+				42AC85931FE3705900CDDB9B /* CoreMedia.framework in Frameworks */,
+				42AC85911FE3705200CDDB9B /* AVFoundation.framework in Frameworks */,
 				ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +203,11 @@
 		A3177101585B3BA3CE985E49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42AC85981FE3706F00CDDB9B /* UIKit.framework */,
+				42AC85961FE3706700CDDB9B /* CoreImage.framework */,
+				42AC85941FE3706100CDDB9B /* CoreGraphics.framework */,
+				42AC85921FE3705800CDDB9B /* CoreMedia.framework */,
+				42AC85901FE3705200CDDB9B /* AVFoundation.framework */,
 				5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */,
 			);
 			name = Frameworks;
@@ -552,8 +572,17 @@
 			baseConfigurationReference = 8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				DEVELOPMENT_TEAM = 693F536PET;
 				GCC_PREFIX_HEADER = iOSSizeClasses/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"'${SRCROOT}/Pods/TensorFlow-experimental/Frameworks/tensorflow_experimental.framework/Headers'",
+					"'${SRCROOT}/Pods/TensorFlow-experimental/Frameworks/tensorflow_experimental.framework/Headers/third_party/eigen3'",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/TensorFlow-experimental\"",
+				);
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
@@ -566,8 +595,17 @@
 			baseConfigurationReference = A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				DEVELOPMENT_TEAM = 693F536PET;
 				GCC_PREFIX_HEADER = iOSSizeClasses/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"'${SRCROOT}/Pods/TensorFlow-experimental/Frameworks/tensorflow_experimental.framework/Headers'",
+					"'${SRCROOT}/Pods/TensorFlow-experimental/Frameworks/tensorflow_experimental.framework/Headers/third_party/eigen3'",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/TensorFlow-experimental\"",
+				);
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
