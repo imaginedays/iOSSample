@@ -3,7 +3,7 @@ inhibit_all_warnings!
 
 target 'iOSSizeClasses' do
      pod 'Masonry'
-     pod 'Charts'
+     #pod 'Charts'
            #友盟分享UShare
            #pod 'UMengUShare/UI'
            #pod 'UMengUShare/Social/WeChat'
