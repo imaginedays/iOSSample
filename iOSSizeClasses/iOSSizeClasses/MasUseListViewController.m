@@ -60,14 +60,42 @@
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    UIPanGestureRecognizer *pan = scrollView.panGestureRecognizer;
+    CGFloat velocity = [pan velocityInView:scrollView].y;
+    if (velocity < -5) {
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }else if(velocity > 5){
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+    }
 }
-*/
+
+//- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+//    CGFloat offsetToShow = 200.0;//滑动多少就完全显示
+//    CGFloat alpha = 1 - (offsetToShow - scrollView.contentOffset.y) / offsetToShow;
+//    [[self.navigationController.navigationBar subviews] objectAtIndex:0].alpha = alpha;
+//}
+
+//- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+//    CGFloat offsetToShow = 200.0;
+//    CGFloat alpha = 1 - (offsetToShow - scrollView.contentOffset.y) / offsetToShow;
+//    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+//    [self.navigationController.navigationBar setBackgroundImage:[self imageWithColor:[[UIColor orangeColor]colorWithAlphaComponent:alpha]] forBarMetrics:UIBarMetricsDefault];
+//}
+
+//生成一张纯色的图片
+
+- (UIImage *)imageWithColor:(UIColor *)color {
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return theImage;
+}
+
+
 
 @end
