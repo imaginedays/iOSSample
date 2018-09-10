@@ -24,6 +24,7 @@
 		42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85941FE3706100CDDB9B /* CoreGraphics.framework */; };
 		42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85961FE3706700CDDB9B /* CoreImage.framework */; };
 		42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85981FE3706F00CDDB9B /* UIKit.framework */; };
+		76CCF8F620DB77550064F1CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76CCF8F520DB77550064F1CB /* GoogleService-Info.plist */; };
 		ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		42AC85961FE3706700CDDB9B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		42AC85981FE3706F00CDDB9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSSizeClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CCF8F520DB77550064F1CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig"; sourceTree = "<group>"; };
 		A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +158,7 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				76CCF8F520DB77550064F1CB /* GoogleService-Info.plist */,
 				424904D31FE251FF0086152E /* SizeClassesSapmle */,
 				424904D21FE251C60086152E /* MasonrySample */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
@@ -333,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */,
+				76CCF8F620DB77550064F1CB /* GoogleService-Info.plist in Resources */,
 				426735AD1DF50081008830DC /* Assets.xcassets in Resources */,
 				426735AB1DF50081008830DC /* Main.storyboard in Resources */,
 			);
@@ -553,7 +557,7 @@
 				);
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
+				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -576,7 +580,7 @@
 				);
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.iOSSizeClasses;
+				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
