@@ -30,6 +30,20 @@
      [self addPlayerUINotifications];
     self.isPortrait = YES;
     self.navigationItem.title = self.identifierStr;
+    [self testDictionary];
+}
+
+- (void)testDictionary {
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"o1",@"v1",@"o2",@"v2",@"o3",@"v3", nil];
+    NSArray *keyArray = dic.allKeys;
+    NSArray *valueArray = dic.allValues;
+    for (NSString *str in keyArray) {
+        NSLog(@"key = %@",str);
+    }
+    
+    for (NSString *str in valueArray) {
+        NSLog(@"value = %@",str);
+    }
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{

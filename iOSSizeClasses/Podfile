@@ -3,7 +3,8 @@ inhibit_all_warnings!
 
 target 'iOSSizeClasses' do
      pod 'Masonry'
-     pod 'Firebase/Core'
+     pod 'MJRefresh'
+#     pod 'Firebase/Core'
      #pod 'Charts'
            #友盟分享UShare
            #pod 'UMengUShare/UI'
