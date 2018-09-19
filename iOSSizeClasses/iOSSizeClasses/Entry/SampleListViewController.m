@@ -32,21 +32,48 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBar.hidden = YES;
+//    self.navigationController.navigationBar.hidden = YES;
     [self setupTableView];
-    [self setupFloatView];
+//    [self setupFloatView];
     self.controllers = @[
                          [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"], [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
                          [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"]
                          ];
+    [self dispatchSignal];
+}
+
+
+- (void)dispatchSignal {
+    //crate的value表示，最多几个资源可访问
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(1);
+    dispatch_queue_t quene = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    //任务1
+    dispatch_async(quene, ^{
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"run task 1");
+        sleep(1);
+        NSLog(@"complete task 1");
+        dispatch_semaphore_signal(semaphore);
+    });
+    
+    //任务2
+    dispatch_async(quene, ^{
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"run task 2");
+        sleep(1);
+        NSLog(@"complete task 2");
+        dispatch_semaphore_signal(semaphore);
+    });
+    
+    //任务3
+    dispatch_async(quene, ^{
+        dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+        NSLog(@"run task 3");
+        sleep(1);
+        NSLog(@"complete task 3");
+        dispatch_semaphore_signal(semaphore);
+    });
 }
 
 - (void)setupFloatView {
@@ -58,12 +85,9 @@
 
 - (void)setupTableView {
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0,kNavigationHeight, self.view.bounds.size.width, self.view.bounds.size.height - kNavigationHeight)];
-    self.tableView.contentInset = UIEdgeInsetsMake(kFloatViewHeight + kNavigationHeight, 0, 0, 0);
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-//    self.tableView.mj_header = [MJRefreshHeader headerWithRefreshingBlock:^{
-//        NSLog(@"mj_header");
-//    }];
+    self.tableView.tableHeaderView = self.headerView;
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -109,6 +133,7 @@
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     RWBaseViewController *viewController = self.controllers[indexPath.row];
     if (viewController.identifierStr && viewController.identifierStr.length > 0) {
         UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
