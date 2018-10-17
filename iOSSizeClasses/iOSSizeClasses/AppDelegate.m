@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <JLRoutes/JLRoutes.h>
 //@import Firebase;
 
 @interface AppDelegate ()
@@ -19,6 +20,38 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 //    [FIRApp configure];
+    /*
+     外部打开APP
+     NSURL *viewUserURL = [NSURL URLWithString:@"myapp://user/view/joeldev"];
+     [[UIApplication sharedApplication] openURL:viewUserURL];
+     */
+//    JLRoutes *routes = [JLRoutes globalRoutes];
+//    [routes addRoute:@"user/view/:userID" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+//        NSString *userID = parameters[@"userID"]; // defined in the route by specifying ":userID"
+//        NSLog(@"userID: %@",userID);
+//        // present UI for viewing user with ID 'userID'
+//        return YES; // return YES to say we have handled the route
+//    }];
+//
+    [[JLRoutes routesForScheme:@"RoutesOne"] addRoute:@"/:user/:view/:userID" handler:^BOOL(NSDictionary *parameters) {
+        NSString *user = parameters[@"user"];
+        NSString *view = parameters[@"view"];
+        NSString *userID = parameters[@"userID"];
+        NSLog(@"user = %@,view = %@,userID = %@",user,view,userID);
+        return YES;
+    }];
+    
+    [[JLRoutes routesForScheme:@"RoutesTwo"] addRoute:@"/Two" handler:^BOOL(NSDictionary *parameters) {
+        return YES;
+    }];
+    
+//    JLRoutes.globalRoutes[@"/:user/:view/:userID"] = ^BOOL(NSDictionary *parameters) {
+//        NSString *user = parameters[@"user"];
+//        NSString *view = parameters[@"view"];
+//        NSString *userID = parameters[@"userID"];
+//        NSLog(@"user = %@,view = %@,userID = %@",user,view,userID);
+//        return YES;
+//    };
     return YES;
 }
 
@@ -49,5 +82,8 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    return [JLRoutes routeURL:url];
+}
 
 @end

@@ -4,6 +4,7 @@ inhibit_all_warnings!
 target 'iOSSizeClasses' do
      pod 'Masonry'
      pod 'MJRefresh'
+     pod 'JLRoutes'
 #     pod 'Firebase/Core'
      #pod 'Charts'
            #友盟分享UShare
