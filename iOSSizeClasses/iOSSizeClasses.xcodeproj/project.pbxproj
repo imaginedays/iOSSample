@@ -27,7 +27,6 @@
 		76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3821509AB600BB0599 /* RWHeaderView.m */; };
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
-		76CCF8F620DB77550064F1CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76CCF8F520DB77550064F1CB /* GoogleService-Info.plist */; };
 		ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */; };
 /* End PBXBuildFile section */
 
@@ -87,7 +86,6 @@
 		76223A3D2150D5A300BB0599 /* RWFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFloatView.h; sourceTree = "<group>"; };
 		76223A3E2150D5A300BB0599 /* RWFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFloatView.m; sourceTree = "<group>"; };
 		76223A402150DD5C00BB0599 /* RWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWCommonMacro.h; sourceTree = "<group>"; };
-		76CCF8F520DB77550064F1CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig"; sourceTree = "<group>"; };
 		A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,7 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				76223A3621509A7200BB0599 /* Entry */,
-				76CCF8F520DB77550064F1CB /* GoogleService-Info.plist */,
 				424904D31FE251FF0086152E /* SizeClassesSapmle */,
 				424904D21FE251C60086152E /* MasonrySample */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
@@ -362,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */,
-				76CCF8F620DB77550064F1CB /* GoogleService-Info.plist in Resources */,
 				426735AD1DF50081008830DC /* Assets.xcassets in Resources */,
 				426735AB1DF50081008830DC /* Main.storyboard in Resources */,
 			);
