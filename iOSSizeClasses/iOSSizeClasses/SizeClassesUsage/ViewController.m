@@ -18,8 +18,7 @@
 
 @implementation ViewController
 
--(void)addPlayerUINotifications
-{
+- (void)addPlayerUINotifications {
     // 注册键盘通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideNotification:) name:UIKeyboardWillHideNotification object:nil];
@@ -27,32 +26,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     [self addPlayerUINotifications];
+    [self addPlayerUINotifications];
     self.isPortrait = YES;
     self.navigationItem.title = self.identifierStr;
-    [self testDictionary];
 }
 
-- (void)testDictionary {
-    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"o1",@"v1",@"o2",@"v2",@"o3",@"v3", nil];
-    NSArray *keyArray = dic.allKeys;
-    NSArray *valueArray = dic.allValues;
-    for (NSString *str in keyArray) {
-        NSLog(@"key = %@",str);
-    }
-    
-    for (NSString *str in valueArray) {
-        NSLog(@"value = %@",str);
-    }
-}
-
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [_textField resignFirstResponder];
 }
 
 // 键盘改变高度通知处理
 - (void)keyboardWillShow:(NSNotification *)notification {
-    
     
     // 获取键盘基本信息（动画时长与键盘高度）
     __weak typeof(self) weakSelf = self;
@@ -95,17 +79,14 @@
 }
 
 - (void)dealloc {
-    
     // 移除键盘通知
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 - (IBAction)talkBtnAction:(UIButton *)sender {
     
@@ -130,27 +111,20 @@
 
 }
 
--(void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
-{
+- (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     
 }
 
--(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
-{
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     
 }
 
--(void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
-{
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
     if (previousTraitCollection) {
-        
-        
-        
     }
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
     //当用户按下ruturn，把焦点从textField移开那么键盘就会消失了
     [textField resignFirstResponder];
     return YES;

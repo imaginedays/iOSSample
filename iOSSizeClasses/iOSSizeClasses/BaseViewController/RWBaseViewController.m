@@ -14,7 +14,7 @@
 
 @implementation RWBaseViewController
 
-- (instancetype)initWithTitle:(NSString *)title andIdentifierStr:(NSString *) identifierStr{
+- (instancetype)initWithTitle:(NSString *)title andIdentifierStr:(NSString *) identifierStr {
     if (self = [super init]) {
         self.title = title;
         self.identifierStr = identifierStr;

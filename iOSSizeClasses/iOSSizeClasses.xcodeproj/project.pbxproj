@@ -27,6 +27,7 @@
 		76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3821509AB600BB0599 /* RWHeaderView.m */; };
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
+		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
 		ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,8 @@
 		76223A3D2150D5A300BB0599 /* RWFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFloatView.h; sourceTree = "<group>"; };
 		76223A3E2150D5A300BB0599 /* RWFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFloatView.m; sourceTree = "<group>"; };
 		76223A402150DD5C00BB0599 /* RWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWCommonMacro.h; sourceTree = "<group>"; };
+		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
+		76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JLRoutesRegister.m"; sourceTree = "<group>"; };
 		8D285D69D0F18DBA658EED71 /* Pods-iOSSizeClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig"; sourceTree = "<group>"; };
 		A382FFDE109D736258C09B55 /* Pods-iOSSizeClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,26 +124,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		424904D21FE251C60086152E /* MasonrySample */ = {
-			isa = PBXGroup;
-			children = (
-				424904DA1FE254CA0086152E /* MasUseListViewController.h */,
-				424904DB1FE254CA0086152E /* MasUseListViewController.m */,
-				424904DD1FE263300086152E /* MasBasicViewController.h */,
-				424904DE1FE263300086152E /* MasBasicViewController.m */,
-			);
-			name = MasonrySample;
-			sourceTree = "<group>";
-		};
-		424904D31FE251FF0086152E /* SizeClassesSapmle */ = {
-			isa = PBXGroup;
-			children = (
-				426735A61DF50081008830DC /* ViewController.h */,
-				426735A71DF50081008830DC /* ViewController.m */,
-			);
-			name = SizeClassesSapmle;
-			sourceTree = "<group>";
-		};
 		426735941DF50081008830DC = {
 			isa = PBXGroup;
 			children = (
@@ -166,9 +149,10 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				76E2FA7D217737E200A3D0AB /* SizeClassesUsage */,
+				76E2FA7B2177379A00A3D0AB /* MasonryUsage */,
+				76E2FA762177342F00A3D0AB /* Category */,
 				76223A3621509A7200BB0599 /* Entry */,
-				424904D31FE251FF0086152E /* SizeClassesSapmle */,
-				424904D21FE251C60086152E /* MasonrySample */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
 				426735A41DF50081008830DC /* AppDelegate.m */,
 				426735A91DF50081008830DC /* Main.storyboard */,
@@ -176,8 +160,7 @@
 				426735AE1DF50081008830DC /* LaunchScreen.storyboard */,
 				426735B11DF50081008830DC /* Info.plist */,
 				426735A01DF50081008830DC /* Supporting Files */,
-				424904CF1FE250500086152E /* RWBaseViewController.h */,
-				424904D01FE250500086152E /* RWBaseViewController.m */,
+				76E2FA7E2177382C00A3D0AB /* BaseViewController */,
 			);
 			path = iOSSizeClasses;
 			sourceTree = "<group>";
@@ -223,6 +206,44 @@
 				76223A3E2150D5A300BB0599 /* RWFloatView.m */,
 			);
 			path = Entry;
+			sourceTree = "<group>";
+		};
+		76E2FA762177342F00A3D0AB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */,
+				76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		76E2FA7B2177379A00A3D0AB /* MasonryUsage */ = {
+			isa = PBXGroup;
+			children = (
+				424904DA1FE254CA0086152E /* MasUseListViewController.h */,
+				424904DB1FE254CA0086152E /* MasUseListViewController.m */,
+				424904DD1FE263300086152E /* MasBasicViewController.h */,
+				424904DE1FE263300086152E /* MasBasicViewController.m */,
+			);
+			path = MasonryUsage;
+			sourceTree = "<group>";
+		};
+		76E2FA7D217737E200A3D0AB /* SizeClassesUsage */ = {
+			isa = PBXGroup;
+			children = (
+				426735A61DF50081008830DC /* ViewController.h */,
+				426735A71DF50081008830DC /* ViewController.m */,
+			);
+			path = SizeClassesUsage;
+			sourceTree = "<group>";
+		};
+		76E2FA7E2177382C00A3D0AB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				424904CF1FE250500086152E /* RWBaseViewController.h */,
+				424904D01FE250500086152E /* RWBaseViewController.m */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 		A3177101585B3BA3CE985E49 /* Frameworks */ = {
@@ -426,6 +447,7 @@
 			files = (
 				76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */,
 				424904DC1FE254CA0086152E /* MasUseListViewController.m in Sources */,
+				76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */,
 				424904DF1FE263300086152E /* MasBasicViewController.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A81DF50081008830DC /* ViewController.m in Sources */,

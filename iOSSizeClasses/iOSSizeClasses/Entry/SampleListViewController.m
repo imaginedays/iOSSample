@@ -104,8 +104,12 @@
     if (viewController.identifierStr && viewController.identifierStr.length > 0) {
         UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         viewController = [mainStory instantiateViewControllerWithIdentifier:viewController.identifierStr];
+        [self.navigationController pushViewController:viewController animated:YES];
+        return;
     }
-    [self.navigationController pushViewController:viewController animated:YES];
+    
+    NSString *urlStr = [NSString stringWithFormat:@"RoutesOne://push/%@",NSStringFromClass(viewController.class)];
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:urlStr] options:@{} completionHandler:nil];
 }
 
 @end

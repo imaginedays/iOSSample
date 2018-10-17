@@ -14,6 +14,7 @@
 - (instancetype)initWithTitle:(NSString *)title andIdentifierStr:(NSString *) identifierStr;
 - (instancetype)initWithTitle:(NSString *)title;
 
-@property(nonatomic,strong) NSString *identifierStr;
+@property (nonatomic, copy) NSString *identifierStr;
+
 
 @end

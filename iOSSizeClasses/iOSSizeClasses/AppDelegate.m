@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <JLRoutes/JLRoutes.h>
+#import "AppDelegate+JLRoutesRegister.h"
 
 @interface AppDelegate ()
 
@@ -32,18 +33,18 @@
 //        return YES; // return YES to say we have handled the route
 //    }];
 //
-    [[JLRoutes routesForScheme:@"RoutesOne"] addRoute:@"/:user/:view/:userID" handler:^BOOL(NSDictionary *parameters) {
-        NSString *user = parameters[@"user"];
-        NSString *view = parameters[@"view"];
-        NSString *userID = parameters[@"userID"];
-        NSLog(@"user = %@,view = %@,userID = %@",user,view,userID);
-        return YES;
-    }];
-    
-    [[JLRoutes routesForScheme:@"RoutesTwo"] addRoute:@"/Two" handler:^BOOL(NSDictionary *parameters) {
-        return YES;
-    }];
-    
+//    [[JLRoutes routesForScheme:@"RoutesOne"] addRoute:@"/:user/:view/:userID" handler:^BOOL(NSDictionary *parameters) {
+//        NSString *user = parameters[@"user"];
+//        NSString *view = parameters[@"view"];
+//        NSString *userID = parameters[@"userID"];
+//        NSLog(@"user = %@,view = %@,userID = %@",user,view,userID);
+//        return YES;
+//    }];
+//
+//    [[JLRoutes routesForScheme:@"RoutesTwo"] addRoute:@"/Two" handler:^BOOL(NSDictionary *parameters) {
+//        return YES;
+//    }];
+//
 //    JLRoutes.globalRoutes[@"/:user/:view/:userID"] = ^BOOL(NSDictionary *parameters) {
 //        NSString *user = parameters[@"user"];
 //        NSString *view = parameters[@"view"];
@@ -51,6 +52,7 @@
 //        NSLog(@"user = %@,view = %@,userID = %@",user,view,userID);
 //        return YES;
 //    };
+    [self registerRouteWithScheme:@"RoutesOne"];
     return YES;
 }
 
