@@ -6,6 +6,7 @@ target 'iOSSizeClasses' do
      pod 'MJRefresh'
     # https://github.com/joeldev/JLRoutes
      pod 'JLRoutes'
+#     pod 'ZIKViper'
 #     pod 'Firebase/Core'
      #pod 'Charts'
            #友盟分享UShare
