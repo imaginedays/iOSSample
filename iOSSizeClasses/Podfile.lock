@@ -1,0 +1,24 @@
+PODS:
+  - JLRoutes (2.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+
+DEPENDENCIES:
+  - JLRoutes
+  - Masonry
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JLRoutes
+    - Masonry
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+
+PODFILE CHECKSUM: 8f2f601732cbb2968bec3f56ca34e8ed52e29c83
+
+COCOAPODS: 1.5.3
