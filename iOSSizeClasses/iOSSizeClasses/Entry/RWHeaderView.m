@@ -8,14 +8,36 @@
 
 #import "RWHeaderView.h"
 
+@interface RWHeaderView ()
+
+@property (nonatomic, strong) UIImageView *topImageView;    // !< 名称 topImageView 描述 topImageView
+@end
 @implementation RWHeaderView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        [self rw_setupViews];
+    }
+    return self;
 }
-*/
+
+- (void)rw_setupViews {
+    [self addSubview:self.topImageView];
+    [self rw_makeConstraints];
+}
+
+- (void)rw_makeConstraints {
+    [self.topImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self);
+    }];
+}
+#pragma mark Accorser
+- (UIImageView *)topImageView {
+    if (!_topImageView) {
+        _topImageView = [[UIImageView alloc] init];
+        _topImageView.image = [UIImage imageNamed:@"bg_top"];
+    }
+    return _topImageView;
+}
 
 @end

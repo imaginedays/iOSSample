@@ -10,6 +10,9 @@
 
 #import "ViewController.h"
 #import "MasUseListViewController.h"
+#import "UIKitUsageListViewController.h"
+
+
 #import "RWHeaderView.h"
 #import "RWFooterView.h"
 #import "RWFloatView.h"
@@ -37,7 +40,8 @@
 //    [self setupFloatView];
     self.controllers = @[
                          [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
-                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"]
+                         [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"],
+                         [[UIKitUsageListViewController alloc] initWithTitle:@"UIKit使用列表"]
                          ];
     
 }
@@ -54,6 +58,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.tableHeaderView = self.headerView;
+    self.tableView.tableFooterView = self.footerView;
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -63,7 +68,6 @@
 - (RWHeaderView *)headerView {
     if (!_headerView) {
         _headerView = [[RWHeaderView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 200)];
-        _headerView.backgroundColor = UIColor.grayColor;
     }
     return _headerView;
 }
@@ -71,7 +75,6 @@
 - (RWFooterView *)footerView {
     if (!_footerView) {
         _footerView = [[RWFooterView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 100)];
-        _footerView.backgroundColor = UIColor.orangeColor;
     }
     return _footerView;
 }
@@ -111,5 +114,8 @@
     NSString *urlStr = [NSString stringWithFormat:@"RoutesOne://push/%@",NSStringFromClass(viewController.class)];
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:urlStr] options:@{} completionHandler:nil];
 }
+
+#pragma mark Accorsor
+
 
 @end

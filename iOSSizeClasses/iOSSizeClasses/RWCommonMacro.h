@@ -17,4 +17,5 @@
 #define RW_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define RW_SCREEN_SCALE  ([UIScreen mainScreen].scale)
 
+#import "Masonry.h"
 #endif /* RWCommonMacro_h */
