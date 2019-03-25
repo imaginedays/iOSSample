@@ -35,7 +35,7 @@
 - (UIImageView *)topImageView {
     if (!_topImageView) {
         _topImageView = [[UIImageView alloc] init];
-        _topImageView.image = [UIImage imageNamed:@"bg_top"];
+        _topImageView.image = [UIImage imageNamed:@"fengye"];
     }
     return _topImageView;
 }
