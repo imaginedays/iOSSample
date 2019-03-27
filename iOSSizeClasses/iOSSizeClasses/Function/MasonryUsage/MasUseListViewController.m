@@ -35,9 +35,9 @@
                          [[MasBasicViewController alloc] initWithTitle:@"masonry基本使用"]
                          ];
     
-    [[RWApiManager shareManager] loginWithUserName:@"a" password:@"b" sid:@"c" token:@"d" block:^(WJLoginVerification type, NSDictionary *param) {
+    [[RWApiManager shareManager] loginWithUserName:@"a" password:@"b" block:^(RWRequest type, NSDictionary *param) {
         switch (type) {
-            case WJLoginVerificationSuccess:
+            case RWRequestSuccess:
                 NSLog(@"%@",param[@"msg"]);
                 break;
                 

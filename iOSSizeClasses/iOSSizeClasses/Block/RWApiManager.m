@@ -9,18 +9,16 @@
 #import "RWApiManager.h"
 #import <objc/message.h>
 
-#define WJLoginVerification(replayCode, param) \
-GetBlockAndCall(WJLoginVerification, loginSelector, replayCode, param);
+#define RWRequest(replayCode, param) \
+GetBlockAndCall(RWRequest, loginSelector, replayCode, param);
 
 @implementation RWApiManager
-#define loginSelector @selector(loginWithUserName:password:sid:token:block:)
+#define loginSelector @selector(loginWithUserName:password:block:)
 - (void)loginWithUserName:(NSString *)userName
                  password:(NSString *)password
-                      sid:(NSString *)sid
-                    token:(NSString *)token
-                    block:(WJLoginVerificationBlock)block {
+                    block:(RWRequestBlock)block {
     if (userName.length > 0) {
-        block(WJLoginVerificationSuccess,@{@"msg":userName});
+        block(RWRequestSuccess,@{@"msg":userName});
     }
  SetBlock(loginSelector);
 }

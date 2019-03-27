@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		424904D11FE250500086152E /* RWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904D01FE250500086152E /* RWBaseViewController.m */; };
 		424904D61FE252B20086152E /* SampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904D51FE252B20086152E /* SampleListViewController.m */; };
-		424904DC1FE254CA0086152E /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904DB1FE254CA0086152E /* MasUseListViewController.m */; };
-		424904DF1FE263300086152E /* MasBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424904DE1FE263300086152E /* MasBasicViewController.m */; };
 		426735A21DF50081008830DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A11DF50081008830DC /* main.m */; };
 		426735A51DF50081008830DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A41DF50081008830DC /* AppDelegate.m */; };
-		426735A81DF50081008830DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426735A71DF50081008830DC /* ViewController.m */; };
 		426735AB1DF50081008830DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426735A91DF50081008830DC /* Main.storyboard */; };
 		426735AD1DF50081008830DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426735AC1DF50081008830DC /* Assets.xcassets */; };
 		426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426735AE1DF50081008830DC /* LaunchScreen.storyboard */; };
@@ -29,6 +26,9 @@
 		76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3821509AB600BB0599 /* RWHeaderView.m */; };
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
+		763CCEC2224B6E6E00D3C57E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCEC1224B6E6E00D3C57E /* ViewController.m */; };
+		763CCEC7224B6E9600D3C57E /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCEC4224B6E9600D3C57E /* MasUseListViewController.m */; };
+		763CCEC8224B6E9600D3C57E /* MasBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCEC6224B6E9600D3C57E /* MasBasicViewController.m */; };
 		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
 		8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9A22438307002A76BD /* RWUsageListViewController.m */; };
 		8AF32E9E22438380002A76BD /* UIKitUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9D22438380002A76BD /* UIKitUsageListViewController.m */; };
@@ -59,16 +59,10 @@
 		424904D01FE250500086152E /* RWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWBaseViewController.m; sourceTree = "<group>"; };
 		424904D41FE252B20086152E /* SampleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleListViewController.h; sourceTree = "<group>"; };
 		424904D51FE252B20086152E /* SampleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleListViewController.m; sourceTree = "<group>"; };
-		424904DA1FE254CA0086152E /* MasUseListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasUseListViewController.h; sourceTree = "<group>"; };
-		424904DB1FE254CA0086152E /* MasUseListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasUseListViewController.m; sourceTree = "<group>"; };
-		424904DD1FE263300086152E /* MasBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasBasicViewController.h; sourceTree = "<group>"; };
-		424904DE1FE263300086152E /* MasBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasBasicViewController.m; sourceTree = "<group>"; };
 		4267359D1DF50081008830DC /* iOSSizeClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSizeClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426735A11DF50081008830DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		426735A31DF50081008830DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		426735A41DF50081008830DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		426735A61DF50081008830DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		426735A71DF50081008830DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		426735AA1DF50081008830DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		426735AC1DF50081008830DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426735AF1DF50081008830DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,6 +91,12 @@
 		76223A3D2150D5A300BB0599 /* RWFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFloatView.h; sourceTree = "<group>"; };
 		76223A3E2150D5A300BB0599 /* RWFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFloatView.m; sourceTree = "<group>"; };
 		76223A402150DD5C00BB0599 /* RWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWCommonMacro.h; sourceTree = "<group>"; };
+		763CCEC0224B6E6E00D3C57E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = iOSSizeClasses/Function/SizeClassesUsage/ViewController.h; sourceTree = SOURCE_ROOT; };
+		763CCEC1224B6E6E00D3C57E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = iOSSizeClasses/Function/SizeClassesUsage/ViewController.m; sourceTree = SOURCE_ROOT; };
+		763CCEC3224B6E9600D3C57E /* MasUseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasUseListViewController.h; path = iOSSizeClasses/Function/MasonryUsage/MasUseListViewController.h; sourceTree = SOURCE_ROOT; };
+		763CCEC4224B6E9600D3C57E /* MasUseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasUseListViewController.m; path = iOSSizeClasses/Function/MasonryUsage/MasUseListViewController.m; sourceTree = SOURCE_ROOT; };
+		763CCEC5224B6E9600D3C57E /* MasBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasBasicViewController.h; path = iOSSizeClasses/Function/MasonryUsage/MasBasicViewController.h; sourceTree = SOURCE_ROOT; };
+		763CCEC6224B6E9600D3C57E /* MasBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasBasicViewController.m; path = iOSSizeClasses/Function/MasonryUsage/MasBasicViewController.m; sourceTree = SOURCE_ROOT; };
 		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
 		76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JLRoutesRegister.m"; sourceTree = "<group>"; };
 		8AF32E9922438307002A76BD /* RWUsageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUsageListViewController.h; sourceTree = "<group>"; };
@@ -165,14 +165,11 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< Updated upstream
 				8AF32E9722438283002A76BD /* Function */,
-=======
 				7604E10522324BF600C35620 /* Utils */,
 				7604E10022320A4500C35620 /* Block */,
 				76E2FA7D217737E200A3D0AB /* SizeClassesUsage */,
 				76E2FA7B2177379A00A3D0AB /* MasonryUsage */,
->>>>>>> Stashed changes
 				76E2FA762177342F00A3D0AB /* Category */,
 				76223A3621509A7200BB0599 /* Entry */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
@@ -261,10 +258,10 @@
 		76E2FA7B2177379A00A3D0AB /* MasonryUsage */ = {
 			isa = PBXGroup;
 			children = (
-				424904DA1FE254CA0086152E /* MasUseListViewController.h */,
-				424904DB1FE254CA0086152E /* MasUseListViewController.m */,
-				424904DD1FE263300086152E /* MasBasicViewController.h */,
-				424904DE1FE263300086152E /* MasBasicViewController.m */,
+				763CCEC5224B6E9600D3C57E /* MasBasicViewController.h */,
+				763CCEC6224B6E9600D3C57E /* MasBasicViewController.m */,
+				763CCEC3224B6E9600D3C57E /* MasUseListViewController.h */,
+				763CCEC4224B6E9600D3C57E /* MasUseListViewController.m */,
 			);
 			path = MasonryUsage;
 			sourceTree = "<group>";
@@ -272,8 +269,8 @@
 		76E2FA7D217737E200A3D0AB /* SizeClassesUsage */ = {
 			isa = PBXGroup;
 			children = (
-				426735A61DF50081008830DC /* ViewController.h */,
-				426735A71DF50081008830DC /* ViewController.m */,
+				763CCEC0224B6E6E00D3C57E /* ViewController.h */,
+				763CCEC1224B6E6E00D3C57E /* ViewController.m */,
 			);
 			path = SizeClassesUsage;
 			sourceTree = "<group>";
@@ -293,8 +290,6 @@
 			isa = PBXGroup;
 			children = (
 				8AF32E98224382D7002A76BD /* UIKitUsage */,
-				76E2FA7D217737E200A3D0AB /* SizeClassesUsage */,
-				76E2FA7B2177379A00A3D0AB /* MasonryUsage */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -396,7 +391,7 @@
 		426735951DF50081008830DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "黄可";
 				TargetAttributes = {
 					4267359C1DF50081008830DC = {
@@ -420,7 +415,7 @@
 			};
 			buildConfigurationList = 426735981DF50081008830DC /* Build configuration list for PBXProject "iOSSizeClasses" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -509,20 +504,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763CCEC7224B6E9600D3C57E /* MasUseListViewController.m in Sources */,
 				76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */,
-				424904DC1FE254CA0086152E /* MasUseListViewController.m in Sources */,
 				7604E10822324C1800C35620 /* AppUtils.m in Sources */,
 				76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */,
 				8AF32EA1224383B5002A76BD /* RWUITextFieldVC.m in Sources */,
-				424904DF1FE263300086152E /* MasBasicViewController.m in Sources */,
+				763CCEC8224B6E9600D3C57E /* MasBasicViewController.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
-				426735A81DF50081008830DC /* ViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
-<<<<<<< Updated upstream
 				8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */,
-=======
 				7604E10322320AAB00C35620 /* RWApiManager.m in Sources */,
->>>>>>> Stashed changes
+				763CCEC2224B6E6E00D3C57E /* ViewController.m in Sources */,
 				424904D61FE252B20086152E /* SampleListViewController.m in Sources */,
 				76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */,
 				8AF32E9E22438380002A76BD /* UIKitUsageListViewController.m in Sources */,
@@ -586,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -645,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

@@ -9,18 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "RWApiPrivateProtocol.h"
 
-typedef  NS_ENUM(NSInteger, WJLoginVerification) {
-    WJLoginVerificationSuccess,
-    WJLoginVerificationError,
-    WJLoginVerificationFailed,
-    WJLoginVerificationNeedAuthCode,
-    WJLoginVerificationRequestAuthCodeFast,
-    WJLoginVerificationSingleButton,
-    WJLoginVerificationLimitTime,
-    WJLoginVerificationRiskUser,
-    WJLoginVerificationLockedUser
+typedef  NS_ENUM(NSInteger, RWRequest) {
+    RWRequestSuccess,
+    RWRequestError,
+    RWRequestFailed,
+    RWRequestNeedAuthCode,
+    RWRequestRequestAuthCodeFast,
+    RWRequestSingleButton,
+    RWRequestLimitTime,
+    RWRequestRiskUser,
+    RWRequestLockedUser
 };
-typedef void(^WJLoginVerificationBlock)(WJLoginVerification type, NSDictionary *param);
+typedef void(^RWRequestBlock)(RWRequest type, NSDictionary *param);
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -29,9 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)loginWithUserName:(NSString *)userName
                  password:(NSString *)password
-                      sid:(NSString *)sid
-                    token:(NSString *)token
-                    block:(WJLoginVerificationBlock)block;
+                    block:(RWRequestBlock)block;
 @end
 
 NS_ASSUME_NONNULL_END
