@@ -8,6 +8,8 @@
 
 #import "MasUseListViewController.h"
 #import "MasBasicViewController.h"
+#import "RWApiManager.h"
+#import "AppUtils.h"
 
 @interface MasUseListViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -32,6 +34,21 @@
     self.controllers = @[
                          [[MasBasicViewController alloc] initWithTitle:@"masonry基本使用"]
                          ];
+    
+    [[RWApiManager shareManager] loginWithUserName:@"a" password:@"b" sid:@"c" token:@"d" block:^(WJLoginVerification type, NSDictionary *param) {
+        switch (type) {
+            case WJLoginVerificationSuccess:
+                NSLog(@"%@",param[@"msg"]);
+                break;
+                
+            default:
+                break;
+        }
+    }];
+    
+    //
+    [AppUtils formatterNum:@"123456789"];
+    
 }
 
 #pragma mark - UITableViewDataSource

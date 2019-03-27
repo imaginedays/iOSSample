@@ -24,6 +24,8 @@
 		42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85941FE3706100CDDB9B /* CoreGraphics.framework */; };
 		42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85961FE3706700CDDB9B /* CoreImage.framework */; };
 		42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85981FE3706F00CDDB9B /* UIKit.framework */; };
+		7604E10322320AAB00C35620 /* RWApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604E10222320AAB00C35620 /* RWApiManager.m */; };
+		7604E10822324C1800C35620 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604E10722324C1800C35620 /* AppUtils.m */; };
 		76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3821509AB600BB0599 /* RWHeaderView.m */; };
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
@@ -83,6 +85,11 @@
 		42AC85961FE3706700CDDB9B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		42AC85981FE3706F00CDDB9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSSizeClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7604E10122320AAB00C35620 /* RWApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWApiManager.h; sourceTree = "<group>"; };
+		7604E10222320AAB00C35620 /* RWApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWApiManager.m; sourceTree = "<group>"; };
+		7604E10422320E2200C35620 /* RWApiPrivateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWApiPrivateProtocol.h; sourceTree = "<group>"; };
+		7604E10622324C1800C35620 /* AppUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		7604E10722324C1800C35620 /* AppUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
 		76223A3721509AB600BB0599 /* RWHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWHeaderView.h; sourceTree = "<group>"; };
 		76223A3821509AB600BB0599 /* RWHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWHeaderView.m; sourceTree = "<group>"; };
 		76223A3A2150A10D00BB0599 /* RWFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFooterView.h; sourceTree = "<group>"; };
@@ -158,7 +165,14 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				8AF32E9722438283002A76BD /* Function */,
+=======
+				7604E10522324BF600C35620 /* Utils */,
+				7604E10022320A4500C35620 /* Block */,
+				76E2FA7D217737E200A3D0AB /* SizeClassesUsage */,
+				76E2FA7B2177379A00A3D0AB /* MasonryUsage */,
+>>>>>>> Stashed changes
 				76E2FA762177342F00A3D0AB /* Category */,
 				76223A3621509A7200BB0599 /* Entry */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
@@ -199,6 +213,25 @@
 				426735C71DF50081008830DC /* Info.plist */,
 			);
 			path = iOSSizeClassesUITests;
+			sourceTree = "<group>";
+		};
+		7604E10022320A4500C35620 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				7604E10122320AAB00C35620 /* RWApiManager.h */,
+				7604E10222320AAB00C35620 /* RWApiManager.m */,
+				7604E10422320E2200C35620 /* RWApiPrivateProtocol.h */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		7604E10522324BF600C35620 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7604E10622324C1800C35620 /* AppUtils.h */,
+				7604E10722324C1800C35620 /* AppUtils.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		76223A3621509A7200BB0599 /* Entry */ = {
@@ -478,13 +511,18 @@
 			files = (
 				76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */,
 				424904DC1FE254CA0086152E /* MasUseListViewController.m in Sources */,
+				7604E10822324C1800C35620 /* AppUtils.m in Sources */,
 				76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */,
 				8AF32EA1224383B5002A76BD /* RWUITextFieldVC.m in Sources */,
 				424904DF1FE263300086152E /* MasBasicViewController.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A81DF50081008830DC /* ViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
+<<<<<<< Updated upstream
 				8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */,
+=======
+				7604E10322320AAB00C35620 /* RWApiManager.m in Sources */,
+>>>>>>> Stashed changes
 				424904D61FE252B20086152E /* SampleListViewController.m in Sources */,
 				76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */,
 				8AF32E9E22438380002A76BD /* UIKitUsageListViewController.m in Sources */,
