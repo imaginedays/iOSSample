@@ -29,6 +29,9 @@
 		763CCEC2224B6E6E00D3C57E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCEC1224B6E6E00D3C57E /* ViewController.m */; };
 		763CCEC7224B6E9600D3C57E /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCEC4224B6E9600D3C57E /* MasUseListViewController.m */; };
 		763CCEC8224B6E9600D3C57E /* MasBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCEC6224B6E9600D3C57E /* MasBasicViewController.m */; };
+		763CCECB224B725600D3C57E /* RWUIScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCECA224B725600D3C57E /* RWUIScrollerViewController.m */; };
+		763CCED2224B7AFC00D3C57E /* RWStepTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCED1224B7AFC00D3C57E /* RWStepTabView.m */; };
+		763CCED5224CA13F00D3C57E /* RWPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCED4224CA13F00D3C57E /* RWPageView.m */; };
 		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
 		8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9A22438307002A76BD /* RWUsageListViewController.m */; };
 		8AF32E9E22438380002A76BD /* UIKitUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9D22438380002A76BD /* UIKitUsageListViewController.m */; };
@@ -97,6 +100,12 @@
 		763CCEC4224B6E9600D3C57E /* MasUseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasUseListViewController.m; path = iOSSizeClasses/Function/MasonryUsage/MasUseListViewController.m; sourceTree = SOURCE_ROOT; };
 		763CCEC5224B6E9600D3C57E /* MasBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasBasicViewController.h; path = iOSSizeClasses/Function/MasonryUsage/MasBasicViewController.h; sourceTree = SOURCE_ROOT; };
 		763CCEC6224B6E9600D3C57E /* MasBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasBasicViewController.m; path = iOSSizeClasses/Function/MasonryUsage/MasBasicViewController.m; sourceTree = SOURCE_ROOT; };
+		763CCEC9224B725600D3C57E /* RWUIScrollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUIScrollerViewController.h; sourceTree = "<group>"; };
+		763CCECA224B725600D3C57E /* RWUIScrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWUIScrollerViewController.m; sourceTree = "<group>"; };
+		763CCED0224B7AFC00D3C57E /* RWStepTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWStepTabView.h; sourceTree = "<group>"; };
+		763CCED1224B7AFC00D3C57E /* RWStepTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWStepTabView.m; sourceTree = "<group>"; };
+		763CCED3224CA13F00D3C57E /* RWPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPageView.h; sourceTree = "<group>"; };
+		763CCED4224CA13F00D3C57E /* RWPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPageView.m; sourceTree = "<group>"; };
 		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
 		76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JLRoutesRegister.m"; sourceTree = "<group>"; };
 		8AF32E9922438307002A76BD /* RWUsageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUsageListViewController.h; sourceTree = "<group>"; };
@@ -246,6 +255,17 @@
 			path = Entry;
 			sourceTree = "<group>";
 		};
+		763CCECC224B7A8100D3C57E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				763CCED0224B7AFC00D3C57E /* RWStepTabView.h */,
+				763CCED1224B7AFC00D3C57E /* RWStepTabView.m */,
+				763CCED3224CA13F00D3C57E /* RWPageView.h */,
+				763CCED4224CA13F00D3C57E /* RWPageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		76E2FA762177342F00A3D0AB /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,10 +317,13 @@
 		8AF32E98224382D7002A76BD /* UIKitUsage */ = {
 			isa = PBXGroup;
 			children = (
+				763CCECC224B7A8100D3C57E /* Views */,
 				8AF32E9C22438380002A76BD /* UIKitUsageListViewController.h */,
 				8AF32E9D22438380002A76BD /* UIKitUsageListViewController.m */,
 				8AF32E9F224383B5002A76BD /* RWUITextFieldVC.h */,
 				8AF32EA0224383B5002A76BD /* RWUITextFieldVC.m */,
+				763CCEC9224B725600D3C57E /* RWUIScrollerViewController.h */,
+				763CCECA224B725600D3C57E /* RWUIScrollerViewController.m */,
 			);
 			path = UIKitUsage;
 			sourceTree = "<group>";
@@ -516,10 +539,13 @@
 				7604E10322320AAB00C35620 /* RWApiManager.m in Sources */,
 				763CCEC2224B6E6E00D3C57E /* ViewController.m in Sources */,
 				424904D61FE252B20086152E /* SampleListViewController.m in Sources */,
+				763CCECB224B725600D3C57E /* RWUIScrollerViewController.m in Sources */,
 				76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */,
 				8AF32E9E22438380002A76BD /* UIKitUsageListViewController.m in Sources */,
+				763CCED2224B7AFC00D3C57E /* RWStepTabView.m in Sources */,
 				76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */,
 				426735A21DF50081008830DC /* main.m in Sources */,
+				763CCED5224CA13F00D3C57E /* RWPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
