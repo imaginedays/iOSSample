@@ -7,6 +7,7 @@
 //
 
 #import "RWUITextFieldVC.h"
+#import "RWAutoDictionary.h"
 
 @interface RWUITextFieldVC ()<UITextFieldDelegate>
 @property (nonatomic, strong) UITextField *inputTextField;
@@ -18,7 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self rw_setupViews];
-    
+    RWAutoDictionary *dic = [RWAutoDictionary new];
+    dic.date = [NSDate dateWithTimeIntervalSince1970:475372800];
+    NSLog(@"dict.date = %@",dic.date);
 }
 
 #pragma mark - Layout

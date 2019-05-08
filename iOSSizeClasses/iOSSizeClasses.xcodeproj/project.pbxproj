@@ -33,6 +33,7 @@
 		763CCED2224B7AFC00D3C57E /* RWStepTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCED1224B7AFC00D3C57E /* RWStepTabView.m */; };
 		763CCED5224CA13F00D3C57E /* RWPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763CCED4224CA13F00D3C57E /* RWPageView.m */; };
 		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
+		8A9DD68D228185BE006FEC6E /* RWAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DD68C228185BE006FEC6E /* RWAutoDictionary.m */; };
 		8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9A22438307002A76BD /* RWUsageListViewController.m */; };
 		8AF32E9E22438380002A76BD /* UIKitUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9D22438380002A76BD /* UIKitUsageListViewController.m */; };
 		8AF32EA1224383B5002A76BD /* RWUITextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32EA0224383B5002A76BD /* RWUITextFieldVC.m */; };
@@ -108,6 +109,8 @@
 		763CCED4224CA13F00D3C57E /* RWPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPageView.m; sourceTree = "<group>"; };
 		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
 		76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JLRoutesRegister.m"; sourceTree = "<group>"; };
+		8A9DD68B228185BE006FEC6E /* RWAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWAutoDictionary.h; sourceTree = "<group>"; };
+		8A9DD68C228185BE006FEC6E /* RWAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWAutoDictionary.m; sourceTree = "<group>"; };
 		8AF32E9922438307002A76BD /* RWUsageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUsageListViewController.h; sourceTree = "<group>"; };
 		8AF32E9A22438307002A76BD /* RWUsageListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWUsageListViewController.m; sourceTree = "<group>"; };
 		8AF32E9C22438380002A76BD /* UIKitUsageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitUsageListViewController.h; sourceTree = "<group>"; };
@@ -174,6 +177,7 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				8A9DD68922818454006FEC6E /* OCLearning */,
 				8AF32E9722438283002A76BD /* Function */,
 				7604E10522324BF600C35620 /* Utils */,
 				7604E10022320A4500C35620 /* Block */,
@@ -304,6 +308,23 @@
 				8AF32E9A22438307002A76BD /* RWUsageListViewController.m */,
 			);
 			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		8A9DD68922818454006FEC6E /* OCLearning */ = {
+			isa = PBXGroup;
+			children = (
+				8A9DD68A22818487006FEC6E /* Message Forwarding */,
+			);
+			path = OCLearning;
+			sourceTree = "<group>";
+		};
+		8A9DD68A22818487006FEC6E /* Message Forwarding */ = {
+			isa = PBXGroup;
+			children = (
+				8A9DD68B228185BE006FEC6E /* RWAutoDictionary.h */,
+				8A9DD68C228185BE006FEC6E /* RWAutoDictionary.m */,
+			);
+			path = "Message Forwarding";
 			sourceTree = "<group>";
 		};
 		8AF32E9722438283002A76BD /* Function */ = {
@@ -532,6 +553,7 @@
 				7604E10822324C1800C35620 /* AppUtils.m in Sources */,
 				76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */,
 				8AF32EA1224383B5002A76BD /* RWUITextFieldVC.m in Sources */,
+				8A9DD68D228185BE006FEC6E /* RWAutoDictionary.m in Sources */,
 				763CCEC8224B6E9600D3C57E /* MasBasicViewController.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
