@@ -3,6 +3,8 @@ inhibit_all_warnings!
 
 target 'iOSSizeClasses' do
      pod 'Masonry'
+     pod 'AFNetworking'
+     pod 'lottie-ios'
      pod 'MJRefresh'
     # https://github.com/joeldev/JLRoutes
      pod 'JLRoutes'

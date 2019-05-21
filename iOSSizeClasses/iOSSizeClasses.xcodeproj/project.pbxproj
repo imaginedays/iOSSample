@@ -178,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				8A9DD68922818454006FEC6E /* OCLearning */,
+				76C21B9A2293A71C000DDC7A /* Manager */,
 				8AF32E9722438283002A76BD /* Function */,
 				7604E10522324BF600C35620 /* Utils */,
 				7604E10022320A4500C35620 /* Block */,
@@ -268,6 +269,13 @@
 				763CCED4224CA13F00D3C57E /* RWPageView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		76C21B9A2293A71C000DDC7A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		76E2FA762177342F00A3D0AB /* Category */ = {

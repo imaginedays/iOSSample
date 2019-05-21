@@ -14,5 +14,5 @@
 
 #define MAS_SHORTHAND
 #import "RWCommonMacro.h"
-
+#import "AFNetworking.h"
 #endif /* PrefixHeader_pch */
