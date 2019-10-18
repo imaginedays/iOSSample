@@ -1,20 +1,17 @@
 platform :ios, '8.0'
 inhibit_all_warnings!
 
+
+flutter_application_path = '../my_flutter/'
+  load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
 target 'iOSSizeClasses' do
+    
      pod 'Masonry'
      pod 'AFNetworking'
-     pod 'lottie-ios'
      pod 'MJRefresh'
-    # https://github.com/joeldev/JLRoutes
      pod 'JLRoutes'
-#     pod 'ZIKViper'
-#     pod 'Firebase/Core'
-     #pod 'Charts'
-           #友盟分享UShare
-           #pod 'UMengUShare/UI'
-           #pod 'UMengUShare/Social/WeChat'
-           # 加入IDFA获取
-           #pod 'UMengUShare/Plugin/IDFA'
-end
 
+     install_all_flutter_pods(flutter_application_path)
+
+end

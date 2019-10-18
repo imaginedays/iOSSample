@@ -52,6 +52,13 @@
 //        NSLog(@"user = %@,view = %@,userID = %@",user,view,userID);
 //        return YES;
 //    };
+//    FlutterRouter *router = [FlutterRouter sharedRouter];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    router.navigationController = storyboard.instantiateInitialViewController;
+//    
+//    [FlutterBoostPlugin.sharedInstance startFlutterWithPlatform:router onStart:^(FlutterViewController *fvc){
+//        
+//    }];
     [self registerRouteWithScheme:@"RoutesOne"];
     return YES;
 }

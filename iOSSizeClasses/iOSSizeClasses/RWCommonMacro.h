@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "Masonry.h"
+
 
 #pragma mark - Screen
 #define RW_STATUS_BAR_HEIGHT ([UIDevice isPhoneX] ? 44.0f : 20.0f) //!< 状态栏高度
@@ -33,6 +33,8 @@
 #define iPhoneX ([UIDevice isPhoneX])
 
 #pragma mark - Color
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 #define RGB(r, g, b) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
 #define RGBAlpha(r, g, b, a) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
 

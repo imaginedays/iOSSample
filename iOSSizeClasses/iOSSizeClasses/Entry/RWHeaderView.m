@@ -24,7 +24,7 @@
 - (void)rw_setupViews {
     [self addSubview:self.topImageView];
     [self rw_makeConstraints];
-    [self addDownloadSample];
+//    [self addDownloadSample];
 }
 
 - (void)rw_makeConstraints {
@@ -72,12 +72,10 @@
         NSString *fullpath = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:response.suggestedFilename];
         
         NSURL *fileUrl = [NSURL fileURLWithPath:fullpath];
-        
-//        NSLog(@"%@\n%@",targetPath,fullpath);
+        NSLog(@"destination targetPath = %@\n  fullpath = %@",targetPath,fullpath);
         return fileUrl;
     } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
-        
-//        NSLog(@"%@",filePath);
+        NSLog(@"completionHandler = %@",filePath);
         if (!error) {
             NSData *data = [NSData dataWithContentsOfFile:filePath];
             _topImageView.image = [UIImage imageWithData:data];

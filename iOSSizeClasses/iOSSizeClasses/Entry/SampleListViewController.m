@@ -7,10 +7,11 @@
 //
 
 #import "SampleListViewController.h"
-
 #import "ViewController.h"
 #import "MasUseListViewController.h"
 #import "UIKitUsageListViewController.h"
+#import "FlutterSampleViewController.h"
+#import "AFNUsageViewController.h"
 
 
 #import "RWHeaderView.h"
@@ -41,7 +42,9 @@
     self.controllers = @[
                          [[ViewController alloc] initWithTitle:@"SizeClasses" andIdentifierStr:@"ViewController"],
                          [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"],
-                         [[UIKitUsageListViewController alloc] initWithTitle:@"UIKit使用列表"]
+                         [[UIKitUsageListViewController alloc] initWithTitle:@"UIKit使用列表"],
+                         [[FlutterSampleViewController alloc]initWithTitle:@"Flutter"],
+                         [[AFNUsageViewController alloc]initWithTitle:@"AFNetworking"]
                          ];
     
 //    [self test];
@@ -112,7 +115,7 @@
         [self.navigationController pushViewController:viewController animated:YES];
         return;
     }
-    
+
     NSString *urlStr = [NSString stringWithFormat:@"RoutesOne://push/%@",NSStringFromClass(viewController.class)];
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:urlStr] options:@{} completionHandler:nil];
 }

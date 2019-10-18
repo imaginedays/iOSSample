@@ -7,14 +7,19 @@
 //
 
 #import "MasUseListViewController.h"
-#import "MasBasicViewController.h"
 #import "RWApiManager.h"
 #import "AppUtils.h"
+
+#import "MasFrameViewController.h"
+#import "MasBasicViewController.h"
+#import "MasScrollerViewController.h"
+#import "RWUIKitTableHeader.h"
 
 @interface MasUseListViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray *controllers;
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) RWUIKitTableHeader *headView;
 
 @end
 
@@ -26,13 +31,16 @@
     self.tableView = [[UITableView alloc] init];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.tableHeaderView = self.headView;
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
     
     self.controllers = @[
-                         [[MasBasicViewController alloc] initWithTitle:@"masonry基本使用"]
+                         [[MasBasicViewController alloc] initWithTitle:@"masonry基本使用"],
+                         [[MasScrollerViewController alloc] initWithTitle:@"masonryScroll使用"],
+                         [[MasFrameViewController alloc] initWithTitle:@"mas Frame使用"]
                          ];
     
     [[RWApiManager shareManager] loginWithUserName:@"a" password:@"b" block:^(RWRequest type, NSDictionary *param) {
@@ -114,6 +122,12 @@
     return theImage;
 }
 
-
+- (RWUIKitTableHeader *)headView {
+    if (!_headView) {
+        _headView = [[[NSBundle mainBundle] loadNibNamed:@"RWUIKitTableHeader" owner:nil options:nil] firstObject];
+        _headView.backgroundColor = UIColor.lightGrayColor;
+    }
+    return _headView;
+}
 
 @end

@@ -7,8 +7,10 @@
 //
 
 #import "UIKitUsageListViewController.h"
+
 #import "RWUITextFieldVC.h"
 #import "RWUIScrollerViewController.h"
+#import "RWXibViewController.h"
 
 @interface UIKitUsageListViewController ()
 
@@ -20,7 +22,8 @@
     [super viewDidLoad];
     self.navigationItem.title = @"UIKit使用";
     self.controllers = @[[[RWUITextFieldVC alloc]initWithTitle:@"UITextField"],
-                         [[RWUIScrollerViewController alloc]initWithTitle:@"UIScrollerView"]
+                         [[RWUIScrollerViewController alloc]initWithTitle:@"UIScrollerView"],
+                         [[RWXibViewController alloc]initWithTitle:@"XIB使用"]
                          ];
     [super viewDidLoad];
 }

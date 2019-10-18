@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70f23ab4-1231-4ab6-b540-d354511f2245" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/JLRoutes/JLRoutes.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/JLRoutes/JLRoutes.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/MJRefresh/MJRefresh.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/MJRefresh/MJRefresh.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Masonry/Masonry.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-frameworks.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-resources.sh" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-resources.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/lottie-ios/lottie-ios.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/Pods/Target Support Files/lottie-ios/lottie-ios.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/iOSSizeClasses.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/iOSSizeClasses.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/iOSSizeClasses/Entry/RWHeaderView.m" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/iOSSizeClasses/Entry/RWHeaderView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOSSizeClasses/iOSSizeClasses/Entry/SampleListViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/iOSSizeClasses/iOSSizeClasses/Entry/SampleListViewController.m" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="565" />
+    <option name="y" value="39" />
+    <option name="width" value="1115" />
+    <option name="height" value="907" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70f23ab4-1231-4ab6-b540-d354511f2245" name="Default Changelist" comment="" />
+      <created>1559117187316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559117187316</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="565" y="39" width="1115" height="907" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32991612" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32883435" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

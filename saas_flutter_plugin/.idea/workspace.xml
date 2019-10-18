@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a532e9a7-ed5a-4742-9a44-3a5672ab7f35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/1-drafts.imageset/1-drafts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/1-drafts.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/10-at.imageset/10-at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/10-at.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/11-follow.imageset/11-follow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/11-follow.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/12-message.imageset/12-message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/12-message.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/13-pic.imageset/13-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/13-pic.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/14-write.imageset/14-write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/14-write.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/15-tips.imageset/15-tips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/15-tips.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/16-comments.imageset/16-comments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/16-comments.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/17-feedback.imageset/17-feedback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/17-feedback.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/18-about.imageset/18-about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/18-about.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/19-add.imageset/19-add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/19-add.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/2-read-mode.imageset/2-read-mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/2-read-mode.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/20-close.imageset/20-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/20-close.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/21-complete.imageset/21-complete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/21-complete.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/22-history.imageset/22-history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/22-history.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/23-more.imageset/23-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/23-more.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/24-refresh.imageset/24-refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/24-refresh.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/25-remind.imageset/25-remind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/25-remind.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/26-reply.imageset/26-reply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/26-reply.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/27-blacklist.imageset/27-blacklist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/27-blacklist.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/28-follower.imageset/28-follower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/28-follower.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/29-call.imageset/29-call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/29-call.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/3-data.imageset/3-data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/3-data.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/30-call-out.imageset/30-call-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/30-call-out.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/31-ablum.imageset/31-ablum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/31-ablum.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/32-back.imageset/32-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/32-back.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/33-call-in.imageset/33-call-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/33-call-in.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/34-letter.imageset/34-letter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/34-letter.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/35-update.imageset/35-update.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/35-update.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/36-favourite.imageset/36-favourite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/36-favourite.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/37-unfavourite.imageset/37-unfavourite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/37-unfavourite.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/38-delete-number.imageset/38-delete-number.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/38-delete-number.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/39-theme.imageset/39-theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/39-theme.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/4-location.imageset/4-location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/4-location.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/40-setting.imageset/40-setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/40-setting.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/41-search.imageset/41-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/41-search.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/42-friends.imageset/42-friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/42-friends.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/43-home.imageset/43-home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/43-home.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/5-dial.imageset/5-dial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/5-dial.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/6-account.imageset/6-account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/6-account.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/7-grade.imageset/7-grade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/7-grade.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/8-exit.imageset/8-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/8-exit.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/9-delete.imageset/9-delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/9-delete.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Assets.xcassets/popular/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/AFNetworkingUsage/AFNUsageViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/AFNetworkingUsage/AFNUsageViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/Flutter/FlutterRouter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/Flutter/FlutterRouter.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/Flutter/FlutterSampleViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/Flutter/FlutterSampleViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/MasonryUsage/MasFrameViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/MasonryUsage/MasFrameViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/MasonryUsage/MasScrollerViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/MasonryUsage/MasScrollerViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/RWXibViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/RWXibViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/Views/RWUIKitTableHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/Views/RWUIKitTableHeader.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/Views/RWUIKitTableHeader.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_flutter/lib/simple_page_widgets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/CALayer+Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/CGGeometry+LOTAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimatedControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimatedSwitch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimationCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimationTransitionController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimationView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimationView_Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimationView_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAnimatorNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTArrayInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAsset.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTAssetGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTBezierData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTBezierPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTBlockCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTCacheProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTCircleAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTColorInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTComposition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTCompositionContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTFillRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTGradientFillRender.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTHelpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTInterpolatorCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTKeyframe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTKeypath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTLayerContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTLayerGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTMask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTMaskContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTModels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTNumberInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTPathAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTPathInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTPlatformCompat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTPointInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTPolygonAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTPolystarAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTRadialGradientLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTRenderGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTRenderNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTRepeaterRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTRoundedRectAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeCircle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeGradientFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapePath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeRectangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeRepeater.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeStar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeStroke.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeTransform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTShapeTrimPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTSizeInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTStrokeRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTTransformInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTTrimPathNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTValueCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTValueDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/LOTValueInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/Lottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/NSValue+Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/UIBezierPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/UIColor+Expanded.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Private/lottie-ios/Lottie/UIColor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTAnimatedControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTAnimatedSwitch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTAnimationCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTAnimationTransitionController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTAnimationView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTAnimationView_Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTBlockCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTCacheProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTComposition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTInterpolatorCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTKeypath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTValueCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/LOTValueDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Headers/Public/lottie-ios/Lottie/Lottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/NSBundle+MJRefresh.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/NSBundle+MJRefresh.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/MJRefresh/UIScrollView+MJRefresh.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/MJRefresh/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/JLRoutes/JLRoutes.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/JLRoutes/JLRoutes.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Masonry/Masonry.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-resources.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-resources.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/lottie-ios/lottie-ios-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/lottie-ios/lottie-ios-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/Target Support Files/lottie-ios/lottie-ios.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTMaskContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTMaskContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTHelpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTRadialGradientLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTRadialGradientLayer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/CALayer+Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/CALayer+Compat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/LOTPlatformCompat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/NSValue+Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/NSValue+Compat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIBezierPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIBezierPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIColor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/UIColor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTModels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRepeater.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRepeater.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStar.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimatedControl.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimatedSwitch.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationTransitionController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTBlockCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTCacheProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTComposition.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTInterpolatorCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTKeypath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/Private/LOTValueCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimatedControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimatedSwitch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationTransitionController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView_Compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTBlockCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTCacheProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTInterpolatorCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTKeypath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/Lottie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTCircleAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTCircleAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPathAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPathAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolygonAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolygonAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolystarAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolystarAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTArrayInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTArrayInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTColorInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTColorInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTNumberInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTNumberInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPathInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPathInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPointInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPointInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTSizeInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTSizeInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTAnimatorNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTAnimatorNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTRenderNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTRenderNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/ManipulatorNodes/LOTTrimPathNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/ManipulatorNodes/LOTTrimPathNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTFillRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTFillRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTGradientFillRender.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTGradientFillRender.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRenderGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRenderGroup.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRepeaterRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRepeaterRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTStrokeRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTStrokeRenderer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/AppDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Entry/RWHeaderView.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Entry/RWHeaderView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Entry/SampleListViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Entry/SampleListViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/MasonryUsage/MasUseListViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/MasonryUsage/MasUseListViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/UIKitUsageListViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/UIKitUsage/UIKitUsageListViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/OCLearning/Message Forwarding/RWAutoDictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/OCLearning/Message Forwarding/RWAutoDictionary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/OCLearning/Message Forwarding/RWAutoDictionary.m" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/Function/OCLearning/Message Forwarding/RWAutoDictionary.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/PrefixHeader.pch" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/PrefixHeader.pch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/RWCommonMacro.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOSSizeClasses/iOSSizeClasses/RWCommonMacro.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/example/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/saas_flutter_plugin.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/ios/Runner/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/SaasFlutterPlugin.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/SaasFlutterPlugin.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.m">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/ios/Runner/AppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/example/ios/Flutter</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="55" />
+    <option name="width" value="1300" />
+    <option name="height" value="766" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="saas_flutter_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_flutter_plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_flutter_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_flutter_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_flutter_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_flutter_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_flutter_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_flutter_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+              <item name="Flutter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a532e9a7-ed5a-4742-9a44-3a5672ab7f35" name="Default Changelist" comment="" />
+      <created>1559190024162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559190024162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="55" width="1300" height="766" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29968202" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32937685" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.6379822" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/saas_flutter_plugin.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SaasFlutterPlugin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SaasFlutterPlugin.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
