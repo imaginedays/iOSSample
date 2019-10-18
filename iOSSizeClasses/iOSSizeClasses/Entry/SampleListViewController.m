@@ -44,6 +44,8 @@
                          [[UIKitUsageListViewController alloc] initWithTitle:@"UIKit使用列表"]
                          ];
     
+//    [self test];
+        [self testBlock];
 }
 
 - (void)setupFloatView {
@@ -113,6 +115,36 @@
     
     NSString *urlStr = [NSString stringWithFormat:@"RoutesOne://push/%@",NSStringFromClass(viewController.class)];
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:urlStr] options:@{} completionHandler:nil];
+}
+
+- (void)test {
+    NSArray *array = @[@1, @2, @3, @4, @5];
+    
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    dispatch_async(queue, ^{
+        dispatch_apply(array.count, queue, ^(size_t index) {
+            NSLog(@"%zu: %@", index, array[index]);
+        });
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"done");
+        });
+    });
+}
+
+- (void)testBlock {
+    __block int i = 1024;//此时i在栈上
+    int j = 1;//此时j在栈上
+    void (^blk)(void);
+    blk = ^{printf("%d, %d\n", i, j); };//此时，blk已经初始化，它会拷贝没有__block标记的常规变量自己所持有的一块内存区，这块内存区现在位于栈上，而对于具有__block标记的变量，其地址会被拷贝置前述的内存区中
+    blk();//1024, 1
+//    void(^blkInHeap)(void) = Block_copy(blk);//复制block后，block所持有的内存区会被拷贝至堆上，此时，我们可以说，这个block现在位于堆上
+//    blkInHeap();//1024,1
+    i++;
+    j++;
+    blk();//1025,1
+//    blkInHeap();//1025,1
 }
 
 #pragma mark Accorsor

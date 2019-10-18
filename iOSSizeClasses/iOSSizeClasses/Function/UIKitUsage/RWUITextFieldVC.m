@@ -11,6 +11,7 @@
 
 @interface RWUITextFieldVC ()<UITextFieldDelegate>
 @property (nonatomic, strong) UITextField *inputTextField;
+@property (nonatomic, strong) UILabel *badgeLabel;
 @end
 
 @implementation RWUITextFieldVC
@@ -22,6 +23,51 @@
     RWAutoDictionary *dic = [RWAutoDictionary new];
     dic.date = [NSDate dateWithTimeIntervalSince1970:475372800];
     NSLog(@"dict.date = %@",dic.date);
+    
+
+    // 局部圆角
+    UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(120, 100, 180, 80)];
+    view2.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view2];
+     
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:view2.bounds byRoundingCorners:UIRectCornerTopRight | UIRectCornerBottomRight cornerRadii:CGSizeMake(40, 40)];
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
+    maskLayer.frame = view2.bounds;
+    maskLayer.path = maskPath.CGPath;
+    view2.layer.mask = maskLayer;
+    
+    [self addBadgeLabel];
+    [self.view layoutIfNeeded];
+}
+
+-(void)addBadgeLabel {
+    _badgeLabel = [[UILabel alloc]initWithFrame:CGRectMake(50,250, 20, 20)];
+     _badgeLabel.text = @"0";
+     _badgeLabel.textColor = [UIColor whiteColor];      //文字颜色
+     _badgeLabel.textAlignment = NSTextAlignmentCenter;     //居中
+     _badgeLabel.layer.borderColor = [UIColor whiteColor].CGColor;
+     _badgeLabel.layer.borderWidth = 1.5;     //边界宽度
+     _badgeLabel.layer.cornerRadius = 10;     //这个为frame size 的一半,既变成圆形
+     _badgeLabel.layer.masksToBounds = YES;
+    _badgeLabel.layer.backgroundColor = [UIColor redColor].CGColor;  //红色背景
+    _badgeLabel.font = [UIFont boldSystemFontOfSize:12];
+    [self.view addSubview:_badgeLabel];
+}
+
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:12],};
+    CGSize textSize = [_badgeLabel.text boundingRectWithSize:CGSizeMake(300, 100) options:NSStringDrawingTruncatesLastVisibleLine attributes:attributes context:nil].size;
+//    [_badgeLabel setFrame:CGRectMake(50, 250, textSize.width, textSize.height)];
+//    _badgeLabel.layer.cornerRadius = textSize.height / 2;
+    NSLog(NSStringFromCGSize(textSize));
+    
+    
+    
+    CGSize textSize2 = [_badgeLabel sizeThatFits:CGSizeZero];
+    [_badgeLabel setFrame:CGRectMake(50, 250, textSize2.width + 4, textSize2.height)];
+    _badgeLabel.layer.cornerRadius = textSize2.height / 2;
+    NSLog(NSStringFromCGSize(textSize2));
 }
 
 #pragma mark - Layout

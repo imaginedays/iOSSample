@@ -64,7 +64,7 @@
     NSURLSessionDownloadTask *downlaodTask = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
         
         //计算文件的下载进度
-        NSLog(@"%f",1.0 * downloadProgress.completedUnitCount / downloadProgress.totalUnitCount);
+//        NSLog(@"%f",1.0 * downloadProgress.completedUnitCount / downloadProgress.totalUnitCount);
         
     } destination:^NSURL * _Nonnull(NSURL * _Nonnull targetPath, NSURLResponse * _Nonnull response) {
         
@@ -73,11 +73,11 @@
         
         NSURL *fileUrl = [NSURL fileURLWithPath:fullpath];
         
-        NSLog(@"%@\n%@",targetPath,fullpath);
+//        NSLog(@"%@\n%@",targetPath,fullpath);
         return fileUrl;
     } completionHandler:^(NSURLResponse * _Nonnull response, NSURL * _Nullable filePath, NSError * _Nullable error) {
         
-        NSLog(@"%@",filePath);
+//        NSLog(@"%@",filePath);
         if (!error) {
             NSData *data = [NSData dataWithContentsOfFile:filePath];
             _topImageView.image = [UIImage imageWithData:data];
