@@ -441,13 +441,11 @@
 			buildConfigurationList = 426735CA1DF50081008830DC /* Build configuration list for PBXNativeTarget "iOSSizeClasses" */;
 			buildPhases = (
 				6D7E8CD2C9308109D0C7DF2D /* [CP] Check Pods Manifest.lock */,
-				4FC9761C427C6F40FAA48C20 /* [CP-User] Run Flutter Build Script */,
 				426735991DF50081008830DC /* Sources */,
 				4267359A1DF50081008830DC /* Frameworks */,
 				4267359B1DF50081008830DC /* Resources */,
 				E31B58169D91623762921D50 /* [CP] Copy Pods Resources */,
 				8A12A5FA229E71CB003F8279 /* ShellScript */,
-				AC9CD41F64B62D3FE0F7F2B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -571,22 +569,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4FC9761C427C6F40FAA48C20 /* [CP-User] Run Flutter Build Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/../my_flutter/.metadata",
-				"${SRCROOT}/../my_flutter/.ios/Flutter/App.framework/App",
-				"${SRCROOT}/../my_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
-				"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh",
-			);
-			name = "[CP-User] Run Flutter Build Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
-		};
 		6D7E8CD2C9308109D0C7DF2D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -621,26 +603,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
-		};
-		AC9CD41F64B62D3FE0F7F2B0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-frameworks.sh",
-				"${PODS_ROOT}/../../my_flutter/.ios/Flutter/engine/Flutter.framework",
-				"${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		E31B58169D91623762921D50 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

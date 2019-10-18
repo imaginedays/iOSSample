@@ -7,7 +7,6 @@
 //
 
 #import "FlutterSampleViewController.h"
-#import <Flutter/Flutter.h>
 
 @interface FlutterSampleViewController ()
 @property (nonatomic, strong) UIButton *goFlutterVCButton;    // !< goFlutterVCButton
@@ -37,15 +36,7 @@
 }
 
 - (void)goFlutterViewController {
-    FlutterViewController* flutterViewController = [[FlutterViewController alloc] init];
-    [flutterViewController setInitialRoute:@"route1"];
-    [self presentViewController:flutterViewController animated:false completion:nil];
-    
-//    [FlutterRouter.sharedRouter openPage:@"first" params:@{} animated:YES completion:^(BOOL f){
-//
-//        [FlutterBoostPlugin.sharedInstance onResultForKey:@"result_id_100" resultData:@{} params:@{}];
-//
-//    }];
+
 }
 
 
