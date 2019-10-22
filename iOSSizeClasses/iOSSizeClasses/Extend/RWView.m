@@ -19,6 +19,23 @@
     return self;
 }
 
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"RWView - touchesBegan");
+}
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+     NSLog(@"RWView - touchesMoved");
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+     NSLog(@"RWView - touchesEnded");
+}
+
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+     NSLog(@"RWView -touchesCancelled");
+}
+
 + (Class)layerClass {
     return [RWLayer class];
 }

@@ -13,6 +13,8 @@
 @interface RWUITextFieldVC ()<UITextFieldDelegate>
 @property (nonatomic, strong) UITextField *inputTextField;
 @property (nonatomic, strong) UILabel *badgeLabel;
+@property (nonatomic, strong) UIButton *myButton;    // !< myButton
+
 @end
 
 @implementation RWUITextFieldVC
@@ -25,10 +27,31 @@
 //    [self partCorner];
     
     // 画圆
-    [self drawCircleView:self.view WithSize:CGSizeMake(130,130) andRadius:20];
+//    [self drawCircleView:self.view WithSize:CGSizeMake(130,130) andRadius:20];
     
     // UIView CALayer
+    
+   
+    
+    [self.view addSubview:self.myButton];
+    
+    [self.myButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.centerY.mas_equalTo(self.view);
+        make.height.mas_equalTo(44.0f);
+    }];
+    
     [self viewAndLayer];
+    
+    UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hanldTapGR)];
+       [self.view addGestureRecognizer:tgr];
+}
+
+- (void)hanldTapGR {
+    NSLog(@"hanldTapGR");
+}
+
+- (void)jbf_myButtonClick {
+    NSLog(@"jbf_myButtonClick");
 }
 
 - (void)viewAndLayer {
@@ -221,5 +244,16 @@
         [_inputTextField addTarget:self action:@selector(rw_textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
     }
     return _inputTextField;
+}
+
+- (UIButton *)myButton {
+    if (!_myButton) {
+        _myButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_myButton setTitle:@"click me" forState:UIControlStateNormal];
+        _myButton.backgroundColor = HexRGB(0xff44dd33);
+        _myButton.titleLabel.font = [UIFont systemFontOfSize:12.0f];
+        [_myButton addTarget:self action:@selector(jbf_myButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _myButton;
 }
 @end
