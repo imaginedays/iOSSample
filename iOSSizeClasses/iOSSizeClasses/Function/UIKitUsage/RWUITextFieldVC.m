@@ -8,6 +8,7 @@
 
 #import "RWUITextFieldVC.h"
 #import "RWAutoDictionary.h"
+#import "RWView.h"
 
 @interface RWUITextFieldVC ()<UITextFieldDelegate>
 @property (nonatomic, strong) UITextField *inputTextField;
@@ -19,13 +20,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self rw_setupViews];
-    RWAutoDictionary *dic = [RWAutoDictionary new];
-    dic.date = [NSDate dateWithTimeIntervalSince1970:475372800];
-    NSLog(@"dict.date = %@",dic.date);
-    
-
+//    [self rw_setupViews];
     // 局部圆角
+//    [self partCorner];
+    
+    // 画圆
+    [self drawCircleView:self.view WithSize:CGSizeMake(130,130) andRadius:20];
+    
+    // UIView CALayer
+    [self viewAndLayer];
+}
+
+- (void)viewAndLayer {
+    RWView *view  = [RWView new];
+    view.backgroundColor = UIColor.brownColor;
+    [self.view addSubview:view];
+    
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view);
+        make.top.equalTo(self.view).offset(200);
+        make.width.height.mas_equalTo(50);
+    }];
+}
+
+ // 局部圆角
+- (void)partCorner {
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(120, 100, 180, 80)];
     view2.backgroundColor = [UIColor redColor];
     [self.view addSubview:view2];
@@ -35,39 +54,34 @@
     maskLayer.frame = view2.bounds;
     maskLayer.path = maskPath.CGPath;
     view2.layer.mask = maskLayer;
-    
-    [self addBadgeLabel];
-    [self.view layoutIfNeeded];
 }
 
--(void)addBadgeLabel {
-    _badgeLabel = [[UILabel alloc]initWithFrame:CGRectMake(50,250, 20, 20)];
-     _badgeLabel.text = @"0";
-     _badgeLabel.textColor = [UIColor whiteColor];      //文字颜色
-     _badgeLabel.textAlignment = NSTextAlignmentCenter;     //居中
-     _badgeLabel.layer.borderColor = [UIColor whiteColor].CGColor;
-     _badgeLabel.layer.borderWidth = 1.5;     //边界宽度
-     _badgeLabel.layer.cornerRadius = 10;     //这个为frame size 的一半,既变成圆形
-     _badgeLabel.layer.masksToBounds = YES;
-    _badgeLabel.layer.backgroundColor = [UIColor redColor].CGColor;  //红色背景
-    _badgeLabel.font = [UIFont boldSystemFontOfSize:12];
-    [self.view addSubview:_badgeLabel];
+#pragma mark --- 画圆
+// 参考 https://blog.csdn.net/m_miao001/article/details/82150240
+- (void)drawCircleView:(UIView *)view WithSize:(CGSize)size andRadius:(CGFloat) radius {
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+//    CGFloat centerX = view.center.x;
+    CGPoint center = view.center;
+    UIBezierPath *bezierpath = [UIBezierPath bezierPath];
+    // draw circle
+    [bezierpath addArcWithCenter:center
+                          radius:radius
+                      startAngle:0
+                        endAngle:M_PI * 2
+                       clockwise:YES];
+
+    [bezierpath closePath];
+    shapeLayer.path = bezierpath.CGPath;
+    shapeLayer.fillColor = [UIColor redColor].CGColor;
+    // 添加边框失败
+//    shapeLayer.borderWidth = 2.0f;
+//    shapeLayer.borderColor = UIColor.blackColor.CGColor;
+//    shapeLayer.masksToBounds = YES;
+    [self.view.layer addSublayer:shapeLayer];
 }
 
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
-    NSDictionary *attributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:12],};
-    CGSize textSize = [_badgeLabel.text boundingRectWithSize:CGSizeMake(300, 100) options:NSStringDrawingTruncatesLastVisibleLine attributes:attributes context:nil].size;
-//    [_badgeLabel setFrame:CGRectMake(50, 250, textSize.width, textSize.height)];
-//    _badgeLabel.layer.cornerRadius = textSize.height / 2;
-    NSLog(NSStringFromCGSize(textSize));
-    
-    
-    
-    CGSize textSize2 = [_badgeLabel sizeThatFits:CGSizeZero];
-    [_badgeLabel setFrame:CGRectMake(50, 250, textSize2.width + 4, textSize2.height)];
-    _badgeLabel.layer.cornerRadius = textSize2.height / 2;
-    NSLog(NSStringFromCGSize(textSize2));
 }
 
 #pragma mark - Layout
@@ -81,7 +95,6 @@
         make.top.mas_equalTo(self.view).offset(200);
         make.left.mas_equalTo(self.view).offset(20);
         make.right.mas_equalTo(self.view).offset(-20);
-//        make.height.equalTo(@21);
     }];
 }
 

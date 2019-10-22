@@ -20,7 +20,7 @@ typedef  NS_ENUM(NSInteger, RWRequest) {
     RWRequestRiskUser,
     RWRequestLockedUser
 };
-typedef void(^RWRequestBlock)(RWRequest type, NSDictionary *param);
+typedef void(^RWRequestBlock)(RWRequest type, NSDictionary * _Nullable param);
 
 NS_ASSUME_NONNULL_BEGIN
 
