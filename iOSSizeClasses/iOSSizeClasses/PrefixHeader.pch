@@ -16,6 +16,7 @@
 #import "RWCommonMacro.h"
 #import "AFNetworking.h"
 #import "Masonry.h"
+#import <ReactiveObjC.h>
 //#import <flutter_boost/FlutterBoost.h>
 //#import "FlutterRouter.h"
 #endif /* PrefixHeader_pch */

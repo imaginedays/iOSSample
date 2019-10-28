@@ -1,0 +1,6 @@
+module Pods_iOSSizeClasses {
+  umbrella header "Pods-iOSSizeClasses-umbrella.h"
+
+  export *
+  module * { export * }
+}

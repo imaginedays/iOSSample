@@ -17,12 +17,14 @@ PODS:
   - JLRoutes (2.1)
   - Masonry (1.1.0)
   - MJRefresh (3.2.0)
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - AFNetworking
   - JLRoutes
   - Masonry
   - MJRefresh
+  - ReactiveObjC (~> 3.1.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -30,13 +32,16 @@ SPEC REPOS:
     - JLRoutes
     - Masonry
     - MJRefresh
+  trunk:
+    - ReactiveObjC
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: cc793f27028da502e264c994e9e398631da4bd59
+PODFILE CHECKSUM: 643510f0c45b731b4977e32d8e8c6f9211da4ed7
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.8.3

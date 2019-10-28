@@ -22,6 +22,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"RWView - touchesBegan");
+    [self printResponderChain];
+    [super touchesBegan:touches withEvent:event];
 }
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
@@ -34,6 +36,15 @@
 
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
      NSLog(@"RWView -touchesCancelled");
+}
+
+- (void)printResponderChain {
+    UIResponder *responder = self;
+    printf("%s",[NSStringFromClass([responder class]) UTF8String]);
+    while (responder.nextResponder) {
+        responder = responder.nextResponder;
+        printf(" --> %s",[NSStringFromClass([responder class]) UTF8String]);
+    }
 }
 
 + (Class)layerClass {

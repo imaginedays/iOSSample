@@ -26,6 +26,7 @@
 		76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3821509AB600BB0599 /* RWHeaderView.m */; };
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
+		76848B3B23605F990009E8B0 /* RWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 76848B3A23605F990009E8B0 /* RWWindow.m */; };
 		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
 		8A406C6E22F9205D007669D8 /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A406C6A22F9205D007669D8 /* MasUseListViewController.m */; };
 		8A406C6F22F9205D007669D8 /* MasBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A406C6B22F9205D007669D8 /* MasBasicViewController.m */; };
@@ -105,6 +106,8 @@
 		76223A3D2150D5A300BB0599 /* RWFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFloatView.h; sourceTree = "<group>"; };
 		76223A3E2150D5A300BB0599 /* RWFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFloatView.m; sourceTree = "<group>"; };
 		76223A402150DD5C00BB0599 /* RWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWCommonMacro.h; sourceTree = "<group>"; };
+		76848B3923605F990009E8B0 /* RWWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWWindow.h; sourceTree = "<group>"; };
+		76848B3A23605F990009E8B0 /* RWWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWWindow.m; sourceTree = "<group>"; };
 		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
 		76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JLRoutesRegister.m"; sourceTree = "<group>"; };
 		8A406C6A22F9205D007669D8 /* MasUseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasUseListViewController.m; sourceTree = "<group>"; };
@@ -206,6 +209,7 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				76848B3823605F090009E8B0 /* UIResponder&UIEvent */,
 				8AA2DDFF2359A67C00DB3EF4 /* Extend */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
 				426735A41DF50081008830DC /* AppDelegate.m */,
@@ -285,6 +289,13 @@
 				76223A3E2150D5A300BB0599 /* RWFloatView.m */,
 			);
 			path = Entry;
+			sourceTree = "<group>";
+		};
+		76848B3823605F090009E8B0 /* UIResponder&UIEvent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIResponder&UIEvent";
 			sourceTree = "<group>";
 		};
 		76C21B9A2293A71C000DDC7A /* Manager */ = {
@@ -408,6 +419,8 @@
 		8AA2DDFF2359A67C00DB3EF4 /* Extend */ = {
 			isa = PBXGroup;
 			children = (
+				76848B3923605F990009E8B0 /* RWWindow.h */,
+				76848B3A23605F990009E8B0 /* RWWindow.m */,
 				8A90D4712359B769001DB704 /* RWView.h */,
 				8A90D4722359B769001DB704 /* RWView.m */,
 				8A90D4742359B78C001DB704 /* RWLayer.h */,
@@ -655,6 +668,7 @@
 				7604E10822324C1800C35620 /* AppUtils.m in Sources */,
 				76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */,
 				8A406C7D22F920A1007669D8 /* RWUIScrollerViewController.m in Sources */,
+				76848B3B23605F990009E8B0 /* RWWindow.m in Sources */,
 				8A406C8322F920BC007669D8 /* MasScrollerViewController.m in Sources */,
 				8A406C7E22F920A1007669D8 /* RWPageView.m in Sources */,
 				8A9DD68D228185BE006FEC6E /* RWAutoDictionary.m in Sources */,
