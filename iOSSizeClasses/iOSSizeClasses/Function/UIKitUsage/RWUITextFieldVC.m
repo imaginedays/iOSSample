@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    [self rw_setupViews];
+    [self rw_setupViews];
     // 局部圆角
 //    [self partCorner];
     

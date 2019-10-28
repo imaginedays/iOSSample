@@ -12,6 +12,7 @@
 #import "UIKitUsageListViewController.h"
 #import "FlutterSampleViewController.h"
 #import "AFNUsageViewController.h"
+#import "RWRACObjCViewController.h"
 
 
 #import "RWHeaderView.h"
@@ -44,7 +45,8 @@
                          [[MasUseListViewController alloc] initWithTitle:@"masonry使用列表"],
                          [[UIKitUsageListViewController alloc] initWithTitle:@"UIKit使用列表"],
                          [[FlutterSampleViewController alloc]initWithTitle:@"Flutter"],
-                         [[AFNUsageViewController alloc]initWithTitle:@"AFNetworking"]
+                         [[AFNUsageViewController alloc]initWithTitle:@"AFNetworking"],
+                         [[RWRACObjCViewController alloc]initWithTitle:@"RACObjC Usage"]
                          ];
     
 //    [self test];

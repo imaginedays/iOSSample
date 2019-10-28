@@ -21,11 +21,13 @@
 		42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85941FE3706100CDDB9B /* CoreGraphics.framework */; };
 		42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85961FE3706700CDDB9B /* CoreImage.framework */; };
 		42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC85981FE3706F00CDDB9B /* UIKit.framework */; };
+		76010CCA2366FA6B00057066 /* RWRACObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76010CC92366FA6B00057066 /* RWRACObjCViewController.m */; };
 		7604E10322320AAB00C35620 /* RWApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604E10222320AAB00C35620 /* RWApiManager.m */; };
 		7604E10822324C1800C35620 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604E10722324C1800C35620 /* AppUtils.m */; };
 		76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3821509AB600BB0599 /* RWHeaderView.m */; };
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
+		76410BE2236717C200DBBD4F /* NSObject+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 76410BE1236717C200DBBD4F /* NSObject+Private.m */; };
 		76848B3B23605F990009E8B0 /* RWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 76848B3A23605F990009E8B0 /* RWWindow.m */; };
 		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
 		8A406C6E22F9205D007669D8 /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A406C6A22F9205D007669D8 /* MasUseListViewController.m */; };
@@ -94,6 +96,8 @@
 		42AC85961FE3706700CDDB9B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		42AC85981FE3706F00CDDB9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSSizeClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76010CC82366FA6B00057066 /* RWRACObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWRACObjCViewController.h; sourceTree = "<group>"; };
+		76010CC92366FA6B00057066 /* RWRACObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWRACObjCViewController.m; sourceTree = "<group>"; };
 		7604E10122320AAB00C35620 /* RWApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWApiManager.h; sourceTree = "<group>"; };
 		7604E10222320AAB00C35620 /* RWApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWApiManager.m; sourceTree = "<group>"; };
 		7604E10422320E2200C35620 /* RWApiPrivateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWApiPrivateProtocol.h; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 		76223A3D2150D5A300BB0599 /* RWFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFloatView.h; sourceTree = "<group>"; };
 		76223A3E2150D5A300BB0599 /* RWFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFloatView.m; sourceTree = "<group>"; };
 		76223A402150DD5C00BB0599 /* RWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWCommonMacro.h; sourceTree = "<group>"; };
+		76410BE0236717C200DBBD4F /* NSObject+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Private.h"; sourceTree = "<group>"; };
+		76410BE1236717C200DBBD4F /* NSObject+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Private.m"; sourceTree = "<group>"; };
 		76848B3923605F990009E8B0 /* RWWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWWindow.h; sourceTree = "<group>"; };
 		76848B3A23605F990009E8B0 /* RWWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWWindow.m; sourceTree = "<group>"; };
 		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
@@ -255,6 +261,15 @@
 				426735C71DF50081008830DC /* Info.plist */,
 			);
 			path = iOSSizeClassesUITests;
+			sourceTree = "<group>";
+		};
+		76010CC72366F9CE00057066 /* RACObjCUsage */ = {
+			isa = PBXGroup;
+			children = (
+				76010CC82366FA6B00057066 /* RWRACObjCViewController.h */,
+				76010CC92366FA6B00057066 /* RWRACObjCViewController.m */,
+			);
+			path = RACObjCUsage;
 			sourceTree = "<group>";
 		};
 		7604E10022320A4500C35620 /* Block */ = {
@@ -425,6 +440,8 @@
 				8A90D4722359B769001DB704 /* RWView.m */,
 				8A90D4742359B78C001DB704 /* RWLayer.h */,
 				8A90D4752359B78C001DB704 /* RWLayer.m */,
+				76410BE0236717C200DBBD4F /* NSObject+Private.h */,
+				76410BE1236717C200DBBD4F /* NSObject+Private.m */,
 			);
 			path = Extend;
 			sourceTree = "<group>";
@@ -432,6 +449,7 @@
 		8AF32E9722438283002A76BD /* Function */ = {
 			isa = PBXGroup;
 			children = (
+				76010CC72366F9CE00057066 /* RACObjCUsage */,
 				8A5C8FC823040EAB00225064 /* AFNetworkingUsage */,
 				8A5C8FC42303FD2E00225064 /* Flutter */,
 				8A9DD68922818454006FEC6E /* OCLearning */,
@@ -671,6 +689,7 @@
 				76848B3B23605F990009E8B0 /* RWWindow.m in Sources */,
 				8A406C8322F920BC007669D8 /* MasScrollerViewController.m in Sources */,
 				8A406C7E22F920A1007669D8 /* RWPageView.m in Sources */,
+				76410BE2236717C200DBBD4F /* NSObject+Private.m in Sources */,
 				8A9DD68D228185BE006FEC6E /* RWAutoDictionary.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
@@ -680,6 +699,7 @@
 				7604E10322320AAB00C35620 /* RWApiManager.m in Sources */,
 				8AE382F822FD62D5005D6FDB /* RWUIKitTableHeader.m in Sources */,
 				424904D61FE252B20086152E /* SampleListViewController.m in Sources */,
+				76010CCA2366FA6B00057066 /* RWRACObjCViewController.m in Sources */,
 				76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */,
 				8A406C7C22F920A1007669D8 /* UIKitUsageListViewController.m in Sources */,
 				8A406C6F22F9205D007669D8 /* MasBasicViewController.m in Sources */,
