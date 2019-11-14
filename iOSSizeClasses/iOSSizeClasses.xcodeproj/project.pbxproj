@@ -28,6 +28,8 @@
 		76223A3C2150A10D00BB0599 /* RWFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3B2150A10D00BB0599 /* RWFooterView.m */; };
 		76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76223A3E2150D5A300BB0599 /* RWFloatView.m */; };
 		76410BE2236717C200DBBD4F /* NSObject+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 76410BE1236717C200DBBD4F /* NSObject+Private.m */; };
+		76506F052372E0A700DC4F8C /* JBFStaticSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76506F042372E0A700DC4F8C /* JBFStaticSample.framework */; };
+		76506F072372E0D200DC4F8C /* JBFStaticSample.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76506F062372E0D200DC4F8C /* JBFStaticSample.bundle */; };
 		76848B3B23605F990009E8B0 /* RWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 76848B3A23605F990009E8B0 /* RWWindow.m */; };
 		76E2FA792177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2FA782177344B00A3D0AB /* AppDelegate+JLRoutesRegister.m */; };
 		8A406C6E22F9205D007669D8 /* MasUseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A406C6A22F9205D007669D8 /* MasUseListViewController.m */; };
@@ -112,6 +114,8 @@
 		76223A402150DD5C00BB0599 /* RWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWCommonMacro.h; sourceTree = "<group>"; };
 		76410BE0236717C200DBBD4F /* NSObject+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Private.h"; sourceTree = "<group>"; };
 		76410BE1236717C200DBBD4F /* NSObject+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Private.m"; sourceTree = "<group>"; };
+		76506F042372E0A700DC4F8C /* JBFStaticSample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JBFStaticSample.framework; sourceTree = "<group>"; };
+		76506F062372E0D200DC4F8C /* JBFStaticSample.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JBFStaticSample.bundle; sourceTree = "<group>"; };
 		76848B3923605F990009E8B0 /* RWWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWWindow.h; sourceTree = "<group>"; };
 		76848B3A23605F990009E8B0 /* RWWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWWindow.m; sourceTree = "<group>"; };
 		76E2FA772177344B00A3D0AB /* AppDelegate+JLRoutesRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JLRoutesRegister.h"; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76506F052372E0A700DC4F8C /* JBFStaticSample.framework in Frameworks */,
 				42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */,
 				42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */,
 				42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */,
@@ -215,6 +220,8 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
+				76506F082372E22700DC4F8C /* Resources */,
+				76506ED92372A6C600DC4F8C /* Vendor */,
 				76848B3823605F090009E8B0 /* UIResponder&UIEvent */,
 				8AA2DDFF2359A67C00DB3EF4 /* Extend */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
@@ -304,6 +311,22 @@
 				76223A3E2150D5A300BB0599 /* RWFloatView.m */,
 			);
 			path = Entry;
+			sourceTree = "<group>";
+		};
+		76506ED92372A6C600DC4F8C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				76506F042372E0A700DC4F8C /* JBFStaticSample.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		76506F082372E22700DC4F8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76506F062372E0D200DC4F8C /* JBFStaticSample.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		76848B3823605F090009E8B0 /* UIResponder&UIEvent */ = {
@@ -594,6 +617,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76506F072372E0D200DC4F8C /* JBFStaticSample.bundle in Resources */,
 				426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */,
 				426735AD1DF50081008830DC /* Assets.xcassets in Resources */,
 				426735AB1DF50081008830DC /* Main.storyboard in Resources */,
@@ -889,6 +913,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOSSizeClasses/Vendor",
 				);
 				GCC_PREFIX_HEADER = iOSSizeClasses/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
@@ -902,6 +927,10 @@
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSSizeClasses/Vendor",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -918,6 +947,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOSSizeClasses/Vendor",
 				);
 				GCC_PREFIX_HEADER = iOSSizeClasses/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
@@ -931,6 +961,10 @@
 				INFOPLIST_FILE = iOSSizeClasses/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSSizeClasses/Vendor",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
