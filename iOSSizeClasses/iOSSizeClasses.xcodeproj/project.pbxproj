@@ -51,6 +51,7 @@
 		8AC7BFA72424A7CD00179441 /* DownloadNSDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFA62424A7CD00179441 /* DownloadNSDataViewController.m */; };
 		8AC7BFA92424AC4200179441 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC7BFA82424AC4200179441 /* CFNetwork.framework */; };
 		8AC7BFAC2424B30300179441 /* DownloadNSURLConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFAB2424B30300179441 /* DownloadNSURLConnectionVC.m */; };
+		8AC7BFAF2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFAE2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m */; };
 		8AE382F222FBFDB4005D6FDB /* MasFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F122FBFDB4005D6FDB /* MasFrameViewController.m */; };
 		8AE382F522FD60EB005D6FDB /* RWXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F422FD60EB005D6FDB /* RWXibViewController.m */; };
 		8AE382F822FD62D5005D6FDB /* RWUIKitTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F722FD62D5005D6FDB /* RWUIKitTableHeader.m */; };
@@ -161,6 +162,8 @@
 		8AC7BFA82424AC4200179441 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8AC7BFAA2424B30300179441 /* DownloadNSURLConnectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSURLConnectionVC.h; sourceTree = "<group>"; };
 		8AC7BFAB2424B30300179441 /* DownloadNSURLConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLConnectionVC.m; sourceTree = "<group>"; };
+		8AC7BFAD2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSURLConnectionBigFileVC.h; sourceTree = "<group>"; };
+		8AC7BFAE2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLConnectionBigFileVC.m; sourceTree = "<group>"; };
 		8AE382F022FBFDB4005D6FDB /* MasFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasFrameViewController.h; sourceTree = "<group>"; };
 		8AE382F122FBFDB4005D6FDB /* MasFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasFrameViewController.m; sourceTree = "<group>"; };
 		8AE382F322FD60EB005D6FDB /* RWXibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWXibViewController.h; sourceTree = "<group>"; };
@@ -490,6 +493,8 @@
 				8AC7BFA62424A7CD00179441 /* DownloadNSDataViewController.m */,
 				8AC7BFAA2424B30300179441 /* DownloadNSURLConnectionVC.h */,
 				8AC7BFAB2424B30300179441 /* DownloadNSURLConnectionVC.m */,
+				8AC7BFAD2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.h */,
+				8AC7BFAE2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m */,
 			);
 			path = DownloadUsage;
 			sourceTree = "<group>";
@@ -745,6 +750,7 @@
 				8A9DD68D228185BE006FEC6E /* RWAutoDictionary.m in Sources */,
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
+				8AC7BFAF2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m in Sources */,
 				8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */,
 				8AC7BFA424248E1000179441 /* DownloadViewController.m in Sources */,
 				8A406C6E22F9205D007669D8 /* MasUseListViewController.m in Sources */,
