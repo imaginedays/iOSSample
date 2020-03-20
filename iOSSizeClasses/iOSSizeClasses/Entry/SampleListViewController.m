@@ -13,6 +13,7 @@
 #import "FlutterSampleViewController.h"
 #import "AFNUsageViewController.h"
 #import "RWRACObjCViewController.h"
+#import "DownloadViewController.h"
 
 
 #import "RWHeaderView.h"
@@ -46,7 +47,8 @@
                          [[UIKitUsageListViewController alloc] initWithTitle:@"UIKit使用列表"],
                          [[FlutterSampleViewController alloc]initWithTitle:@"Flutter"],
                          [[AFNUsageViewController alloc]initWithTitle:@"AFNetworking"],
-                         [[RWRACObjCViewController alloc]initWithTitle:@"RACObjC Usage"]
+                         [[RWRACObjCViewController alloc]initWithTitle:@"RACObjC Usage"],
+                         [[DownloadViewController alloc]initWithTitle:@"Download"],
                          ];
     
 //    [self test];

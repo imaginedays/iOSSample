@@ -47,6 +47,9 @@
 		8A90D4732359B769001DB704 /* RWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A90D4722359B769001DB704 /* RWView.m */; };
 		8A90D4762359B78C001DB704 /* RWLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A90D4752359B78C001DB704 /* RWLayer.m */; };
 		8A9DD68D228185BE006FEC6E /* RWAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DD68C228185BE006FEC6E /* RWAutoDictionary.m */; };
+		8AC7BFA424248E1000179441 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFA324248E1000179441 /* DownloadViewController.m */; };
+		8AC7BFA72424A7CD00179441 /* DownloadNSDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFA62424A7CD00179441 /* DownloadNSDataViewController.m */; };
+		8AC7BFA92424AC4200179441 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC7BFA82424AC4200179441 /* CFNetwork.framework */; };
 		8AE382F222FBFDB4005D6FDB /* MasFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F122FBFDB4005D6FDB /* MasFrameViewController.m */; };
 		8AE382F522FD60EB005D6FDB /* RWXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F422FD60EB005D6FDB /* RWXibViewController.m */; };
 		8AE382F822FD62D5005D6FDB /* RWUIKitTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F722FD62D5005D6FDB /* RWUIKitTableHeader.m */; };
@@ -150,6 +153,11 @@
 		8A90D4752359B78C001DB704 /* RWLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWLayer.m; sourceTree = "<group>"; };
 		8A9DD68B228185BE006FEC6E /* RWAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWAutoDictionary.h; sourceTree = "<group>"; };
 		8A9DD68C228185BE006FEC6E /* RWAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWAutoDictionary.m; sourceTree = "<group>"; };
+		8AC7BFA224248E1000179441 /* DownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		8AC7BFA324248E1000179441 /* DownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		8AC7BFA52424A7CD00179441 /* DownloadNSDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSDataViewController.h; sourceTree = "<group>"; };
+		8AC7BFA62424A7CD00179441 /* DownloadNSDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSDataViewController.m; sourceTree = "<group>"; };
+		8AC7BFA82424AC4200179441 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8AE382F022FBFDB4005D6FDB /* MasFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasFrameViewController.h; sourceTree = "<group>"; };
 		8AE382F122FBFDB4005D6FDB /* MasFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasFrameViewController.m; sourceTree = "<group>"; };
 		8AE382F322FD60EB005D6FDB /* RWXibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWXibViewController.h; sourceTree = "<group>"; };
@@ -170,6 +178,7 @@
 			files = (
 				76506F052372E0A700DC4F8C /* JBFStaticSample.framework in Frameworks */,
 				42AC85991FE3706F00CDDB9B /* UIKit.framework in Frameworks */,
+				8AC7BFA92424AC4200179441 /* CFNetwork.framework in Frameworks */,
 				42AC85971FE3706700CDDB9B /* CoreImage.framework in Frameworks */,
 				42AC85951FE3706100CDDB9B /* CoreGraphics.framework in Frameworks */,
 				42AC85931FE3705900CDDB9B /* CoreMedia.framework in Frameworks */,
@@ -220,10 +229,6 @@
 		4267359F1DF50081008830DC /* iOSSizeClasses */ = {
 			isa = PBXGroup;
 			children = (
-				76506F082372E22700DC4F8C /* Resources */,
-				76506ED92372A6C600DC4F8C /* Vendor */,
-				76848B3823605F090009E8B0 /* UIResponder&UIEvent */,
-				8AA2DDFF2359A67C00DB3EF4 /* Extend */,
 				426735A31DF50081008830DC /* AppDelegate.h */,
 				426735A41DF50081008830DC /* AppDelegate.m */,
 				426735AC1DF50081008830DC /* Assets.xcassets */,
@@ -231,13 +236,17 @@
 				7604E10022320A4500C35620 /* Block */,
 				76E2FA762177342F00A3D0AB /* Category */,
 				76223A3621509A7200BB0599 /* Entry */,
+				8AA2DDFF2359A67C00DB3EF4 /* Extend */,
 				8AF32E9722438283002A76BD /* Function */,
 				426735B11DF50081008830DC /* Info.plist */,
 				426735AE1DF50081008830DC /* LaunchScreen.storyboard */,
 				426735A91DF50081008830DC /* Main.storyboard */,
 				76C21B9A2293A71C000DDC7A /* Manager */,
+				76506F082372E22700DC4F8C /* Resources */,
 				426735A01DF50081008830DC /* Supporting Files */,
+				76848B3823605F090009E8B0 /* UIResponder&UIEvent */,
 				7604E10522324BF600C35620 /* Utils */,
+				76506ED92372A6C600DC4F8C /* Vendor */,
 			);
 			path = iOSSizeClasses;
 			sourceTree = "<group>";
@@ -469,10 +478,22 @@
 			path = Extend;
 			sourceTree = "<group>";
 		};
+		8AC7BFA124248DDA00179441 /* DownloadUsage */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7BFA224248E1000179441 /* DownloadViewController.h */,
+				8AC7BFA324248E1000179441 /* DownloadViewController.m */,
+				8AC7BFA52424A7CD00179441 /* DownloadNSDataViewController.h */,
+				8AC7BFA62424A7CD00179441 /* DownloadNSDataViewController.m */,
+			);
+			path = DownloadUsage;
+			sourceTree = "<group>";
+		};
 		8AF32E9722438283002A76BD /* Function */ = {
 			isa = PBXGroup;
 			children = (
 				76010CC72366F9CE00057066 /* RACObjCUsage */,
+				8AC7BFA124248DDA00179441 /* DownloadUsage */,
 				8A5C8FC823040EAB00225064 /* AFNetworkingUsage */,
 				8A5C8FC42303FD2E00225064 /* Flutter */,
 				8A9DD68922818454006FEC6E /* OCLearning */,
@@ -486,6 +507,7 @@
 		A3177101585B3BA3CE985E49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AC7BFA82424AC4200179441 /* CFNetwork.framework */,
 				42AC85981FE3706F00CDDB9B /* UIKit.framework */,
 				42AC85961FE3706700CDDB9B /* CoreImage.framework */,
 				42AC85941FE3706100CDDB9B /* CoreGraphics.framework */,
@@ -718,12 +740,14 @@
 				424904D11FE250500086152E /* RWBaseViewController.m in Sources */,
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
 				8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */,
+				8AC7BFA424248E1000179441 /* DownloadViewController.m in Sources */,
 				8A406C6E22F9205D007669D8 /* MasUseListViewController.m in Sources */,
 				8A5C8FCE2304168100225064 /* FlutterRouter.m in Sources */,
 				7604E10322320AAB00C35620 /* RWApiManager.m in Sources */,
 				8AE382F822FD62D5005D6FDB /* RWUIKitTableHeader.m in Sources */,
 				424904D61FE252B20086152E /* SampleListViewController.m in Sources */,
 				76010CCA2366FA6B00057066 /* RWRACObjCViewController.m in Sources */,
+				8AC7BFA72424A7CD00179441 /* DownloadNSDataViewController.m in Sources */,
 				76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */,
 				8A406C7C22F920A1007669D8 /* UIKitUsageListViewController.m in Sources */,
 				8A406C6F22F9205D007669D8 /* MasBasicViewController.m in Sources */,
