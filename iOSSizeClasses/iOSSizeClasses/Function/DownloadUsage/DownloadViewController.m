@@ -9,6 +9,7 @@
 #import "DownloadViewController.h"
 
 #import "DownloadNSDataViewController.h"
+#import "DownloadNSURLConnectionVC.h"
 
 @interface DownloadViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray *controllers;
@@ -37,6 +38,7 @@
     
      self.controllers = @[
                             [[DownloadNSDataViewController alloc] initWithTitle:@"文件下载断点续传-NSData"],
+                            [[DownloadNSURLConnectionVC alloc]initWithTitle:@"文件下载断点续传-NSURLConnection"]
                             ];
     
     self.tableView = [[UITableView alloc]init];
