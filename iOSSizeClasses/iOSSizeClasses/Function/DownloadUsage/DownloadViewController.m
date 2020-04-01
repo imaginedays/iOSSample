@@ -14,12 +14,22 @@
 
 #import <WebKit/WebKit.h>
 
+@interface CellStateModel : NSObject
+@property (nonatomic, assign) BOOL isOpen;  //!< 属性名称
+@property (nonatomic, assign) CGFloat height;  //!< 属性名称
+@end
+
+@implementation CellStateModel
+
+@end
+
 @interface DownloadViewController ()<UITableViewDelegate,UITableViewDataSource,WKNavigationDelegate>
 @property (nonatomic, strong) NSArray *controllers;
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) WKWebView *wkWebView;
 @property (nonatomic, strong) NSMutableDictionary<NSNumber *, WKWebView *> *wkWebViewDic;  //!< 属性名称
-@property (nonatomic, strong) NSMutableDictionary<NSNumber *, NSNumber *> *footerViewHeightDic;  //!< 属性名称
+@property (nonatomic, strong) NSMutableDictionary<NSNumber *, CellStateModel *> *footerViewStateDic;  //!< 属性名称
+@property (nonatomic, assign) CGFloat explandHeight;  //!< 属性名称
 @end
 
 @implementation DownloadViewController
@@ -27,12 +37,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"文件下载";
+    self.explandHeight = 0;//RW_SCREEN_HEIGHT - RW_NAVI_BAR_HEIGHT - 180.0f;
     
     self.wkWebViewDic = [[NSMutableDictionary alloc]init];
-    self.footerViewHeightDic = [[NSMutableDictionary alloc]init];
-    [self.footerViewHeightDic setObject:@(self.view.frame.size.height - 240) forKey:@(0)];
-    [self.footerViewHeightDic setObject:@(0) forKey:@(1)];
-    [self.footerViewHeightDic setObject:@(0) forKey:@(2)];
+    self.footerViewStateDic = [[NSMutableDictionary alloc]init];
+    CellStateModel *model1 = [CellStateModel new];
+    model1.isOpen = YES;
+    model1.height = self.explandHeight;
+    [self.footerViewStateDic setObject:model1 forKey:@(0)];
+    
+    CellStateModel *model2 = [CellStateModel new];
+    model2.isOpen = NO;
+    model2.height = 0;
+    [self.footerViewStateDic setObject:model2 forKey:@(1)];
+    
+    CellStateModel *model3 = [CellStateModel new];
+    model3.isOpen = NO;
+    model3.height = 0;
+    [self.footerViewStateDic setObject:model3 forKey:@(2)];
     
 //    NSMutableArray *arr = [NSMutableArray arrayWithCapacity:0];
 //
@@ -49,14 +71,13 @@
 //    [arr addObject:title4];
     
      self.controllers = @[
-                            [[DownloadNSDataViewController alloc] initWithTitle:@"文件下载断点续传-NSData"],
-                            [[DownloadNSURLConnectionVC alloc]initWithTitle:@"文件下载断点续传-NSURLConnection"],
-                            [[DownloadNSURLConnectionBigFileVC alloc]initWithTitle:@"文件下载断点续传-NSURLConnection-大文件下载"],
+                            [[DownloadNSDataViewController alloc] initWithTitle:@"文件下载-NSData"],
+                            [[DownloadNSURLConnectionVC alloc]initWithTitle:@"文件下载-NSURLConnection"],
+                            [[DownloadNSURLConnectionBigFileVC alloc]initWithTitle:@"文件下载-NSURLConnection-大文件下载"],
                             
                             ];
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
-//    self.tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, CGFLOAT_MIN)];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
@@ -100,21 +121,31 @@
 // Called after the user changes the selection.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if ([[self.footerViewHeightDic objectForKey:@(indexPath.section)] floatValue] == 0) {
-        [self.footerViewHeightDic setObject:@(200) forKey:@(indexPath.section)];
-    } else {
-        [self.footerViewHeightDic setObject:@(0) forKey:@(indexPath.section)];
-    }
-    [tableView reloadData];
     
-//    UIViewController *viewController = self.controllers[indexPath.section];
-//    [self.navigationController pushViewController:viewController animated:YES];
+//    [self.footerViewStateDic enumerateKeysAndObjectsUsingBlock:^(NSNumber * _Nonnull key, CellStateModel * _Nonnull obj, BOOL * _Nonnull stop) {
+//        if ([key integerValue] == indexPath.section) {
+//             obj.isOpen = !obj.isOpen;
+//             obj.height = self.explandHeight;
+//            if (obj.isOpen) {
+//                obj.height = self.explandHeight;
+//            } else {
+//                obj.height = 0.0f;
+//            }
+//        } else {
+//            obj.isOpen = NO;
+//            obj.height = 0;
+//        }
+//    }];
+//    [self.tableView reloadData];
+    
+    UIViewController *viewController = self.controllers[indexPath.section];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    if ([self.footerViewHeightDic objectForKey:@(section)]) {
-        CGFloat height = ((NSNumber *)[self.footerViewHeightDic objectForKey:@(section)]).floatValue;
-        NSLog(@"heightForFooterInSection = %f",height);
+    if ([self.footerViewStateDic objectForKey:@(section)]) {
+        CellStateModel *model = [self.footerViewStateDic objectForKey:@(section)];
+        CGFloat height = model.height;
         return height;
     }
     return .1f;
@@ -156,25 +187,6 @@
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     return [[UIView alloc]init];
-}
-
--(void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
-  [webView evaluateJavaScript:@"document.documentElement.scrollHeight" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
-    CGFloat height = [result doubleValue];
-      NSLog(@"height = %f",height);
-    
-    //通知cell更改约束
-      [self.wkWebViewDic enumerateKeysAndObjectsUsingBlock:^(NSNumber * _Nonnull key, WKWebView * _Nonnull obj, BOOL * _Nonnull stop) {
-          if ([obj isEqual:webView]) {
-              [self.tableView beginUpdates];
-//              [self.footerViewHeightDic setObject:@(200) forKey:key];
-              NSIndexSet *indexSet = [[NSIndexSet alloc]initWithIndex:[key integerValue]];
-              [self.tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
-              [self.tableView endUpdates];
-              *stop = YES;
-          }
-      }];
-  }];
 }
 
 #pragma mark - Accessor

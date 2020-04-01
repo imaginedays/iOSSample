@@ -62,9 +62,9 @@
     if (!_downloadButton) {
         _downloadButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _downloadButton.titleLabel.font = [UIFont systemFontOfSize:14.0f];
-        _downloadButton.titleLabel.textColor = HexRGB(0xE3535);
-        _downloadButton.backgroundColor = HexRGB(0x666666);
-        _downloadButton.titleLabel.text = @"下载";
+        _downloadButton.backgroundColor = HexRGB(0x4D7FFF);
+        [_downloadButton setTitle:@"下载" forState:UIControlStateNormal];
+        [_downloadButton setTitleColor:HexRGB(0xE3535) forState:UIControlStateNormal];
         [_downloadButton addTarget:self action:@selector(jbf_downloadButtonClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _downloadButton;

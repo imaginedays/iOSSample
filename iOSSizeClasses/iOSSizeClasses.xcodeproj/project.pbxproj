@@ -52,6 +52,8 @@
 		8AC7BFA92424AC4200179441 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC7BFA82424AC4200179441 /* CFNetwork.framework */; };
 		8AC7BFAC2424B30300179441 /* DownloadNSURLConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFAB2424B30300179441 /* DownloadNSURLConnectionVC.m */; };
 		8AC7BFAF2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7BFAE2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m */; };
+		8AD08CC62433402D00F42228 /* DownloadNSURLConnectionResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD08CC42433402C00F42228 /* DownloadNSURLConnectionResumeVC.m */; };
+		8AD08CC72433402D00F42228 /* DownloadNSURLConnectionResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD08CC52433402C00F42228 /* DownloadNSURLConnectionResumeVC.xib */; };
 		8AE382F222FBFDB4005D6FDB /* MasFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F122FBFDB4005D6FDB /* MasFrameViewController.m */; };
 		8AE382F522FD60EB005D6FDB /* RWXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F422FD60EB005D6FDB /* RWXibViewController.m */; };
 		8AE382F822FD62D5005D6FDB /* RWUIKitTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F722FD62D5005D6FDB /* RWUIKitTableHeader.m */; };
@@ -164,6 +166,9 @@
 		8AC7BFAB2424B30300179441 /* DownloadNSURLConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLConnectionVC.m; sourceTree = "<group>"; };
 		8AC7BFAD2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSURLConnectionBigFileVC.h; sourceTree = "<group>"; };
 		8AC7BFAE2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLConnectionBigFileVC.m; sourceTree = "<group>"; };
+		8AD08CC32433402C00F42228 /* DownloadNSURLConnectionResumeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSURLConnectionResumeVC.h; sourceTree = "<group>"; };
+		8AD08CC42433402C00F42228 /* DownloadNSURLConnectionResumeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLConnectionResumeVC.m; sourceTree = "<group>"; };
+		8AD08CC52433402C00F42228 /* DownloadNSURLConnectionResumeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadNSURLConnectionResumeVC.xib; sourceTree = "<group>"; };
 		8AE382F022FBFDB4005D6FDB /* MasFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasFrameViewController.h; sourceTree = "<group>"; };
 		8AE382F122FBFDB4005D6FDB /* MasFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasFrameViewController.m; sourceTree = "<group>"; };
 		8AE382F322FD60EB005D6FDB /* RWXibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWXibViewController.h; sourceTree = "<group>"; };
@@ -495,6 +500,9 @@
 				8AC7BFAB2424B30300179441 /* DownloadNSURLConnectionVC.m */,
 				8AC7BFAD2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.h */,
 				8AC7BFAE2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m */,
+				8AD08CC32433402C00F42228 /* DownloadNSURLConnectionResumeVC.h */,
+				8AD08CC42433402C00F42228 /* DownloadNSURLConnectionResumeVC.m */,
+				8AD08CC52433402C00F42228 /* DownloadNSURLConnectionResumeVC.xib */,
 			);
 			path = DownloadUsage;
 			sourceTree = "<group>";
@@ -607,7 +615,7 @@
 				TargetAttributes = {
 					4267359C1DF50081008830DC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 693F536PET;
+						DevelopmentTeam = 5F4S8K69T4;
 						ProvisioningStyle = Automatic;
 					};
 					426735B51DF50081008830DC = {
@@ -649,6 +657,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD08CC72433402D00F42228 /* DownloadNSURLConnectionResumeVC.xib in Resources */,
 				76506F072372E0D200DC4F8C /* JBFStaticSample.bundle in Resources */,
 				426735B01DF50081008830DC /* LaunchScreen.storyboard in Resources */,
 				426735AD1DF50081008830DC /* Assets.xcassets in Resources */,
@@ -761,6 +770,7 @@
 				76010CCA2366FA6B00057066 /* RWRACObjCViewController.m in Sources */,
 				8AC7BFA72424A7CD00179441 /* DownloadNSDataViewController.m in Sources */,
 				76223A3921509AB600BB0599 /* RWHeaderView.m in Sources */,
+				8AD08CC62433402D00F42228 /* DownloadNSURLConnectionResumeVC.m in Sources */,
 				8A406C7C22F920A1007669D8 /* UIKitUsageListViewController.m in Sources */,
 				8A406C6F22F9205D007669D8 /* MasBasicViewController.m in Sources */,
 				8A406C7F22F920A1007669D8 /* RWStepTabView.m in Sources */,
@@ -944,7 +954,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				DEVELOPMENT_TEAM = 693F536PET;
+				DEVELOPMENT_TEAM = 5F4S8K69T4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -967,7 +977,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSSizeClasses/Vendor",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw;
+				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -978,7 +988,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				DEVELOPMENT_TEAM = 693F536PET;
+				DEVELOPMENT_TEAM = 5F4S8K69T4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1001,7 +1011,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSSizeClasses/Vendor",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw;
+				PRODUCT_BUNDLE_IDENTIFIER = org.imaginedays.rw.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
