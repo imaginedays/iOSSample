@@ -19,31 +19,45 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VBW-JE-k1V">
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VBW-JE-k1V">
                     <rect key="frame" x="132" y="178" width="150" height="2"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="ODw-V8-r5y"/>
+                    </constraints>
                 </progressView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FU-tD-zW7">
-                    <rect key="frame" x="186" y="205" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FU-tD-zW7">
+                    <rect key="frame" x="186" y="205" width="42" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlO-gg-uqg">
-                    <rect key="frame" x="-344" y="-258" width="1102" height="1102"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="21-complete"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlO-gg-uqg">
+                    <rect key="frame" x="182" y="255.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Psn-UM-K7M"/>
+                        <constraint firstAttribute="height" constant="50" id="Zkn-oe-q2k"/>
+                    </constraints>
+                    <state key="normal" image="play" catalog="system"/>
+                    <state key="selected" image="pause" catalog="system"/>
                     <connections>
                         <action selector="resumeDownloadBtnPress:" destination="-1" eventType="touchUpInside" id="rWK-x3-gn4"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7FU-tD-zW7" firstAttribute="top" secondItem="VBW-JE-k1V" secondAttribute="bottom" constant="25" id="BTA-fA-IDU"/>
+                <constraint firstItem="IlO-gg-uqg" firstAttribute="top" secondItem="7FU-tD-zW7" secondAttribute="bottom" constant="30" id="TKx-Vg-wH1"/>
+                <constraint firstItem="VBW-JE-k1V" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="178" id="Xa5-UF-sq7"/>
+                <constraint firstItem="7FU-tD-zW7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cPL-SK-Thg"/>
+                <constraint firstItem="IlO-gg-uqg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hOE-Ku-FBH"/>
+                <constraint firstItem="VBW-JE-k1V" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="stF-CQ-Yp8"/>
+            </constraints>
             <point key="canvasLocation" x="139" y="108"/>
         </view>
     </objects>
     <resources>
-        <image name="21-complete" width="1102" height="1102"/>
+        <image name="pause" catalog="system" width="44" height="64"/>
+        <image name="play" catalog="system" width="60" height="64"/>
     </resources>
 </document>

@@ -58,6 +58,9 @@
 		8AE382F522FD60EB005D6FDB /* RWXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F422FD60EB005D6FDB /* RWXibViewController.m */; };
 		8AE382F822FD62D5005D6FDB /* RWUIKitTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE382F722FD62D5005D6FDB /* RWUIKitTableHeader.m */; };
 		8AE382FA22FD62E0005D6FDB /* RWUIKitTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE382F922FD62E0005D6FDB /* RWUIKitTableHeader.xib */; };
+		8AE777D52444426800CCE669 /* DownloadNSURLSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE777D42444426800CCE669 /* DownloadNSURLSessionVC.m */; };
+		8AE777D824447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE777D724447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.m */; };
+		8AE777DB2445941100CCE669 /* DownloadAFNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE777DA2445941100CCE669 /* DownloadAFNetworkingVC.m */; };
 		8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF32E9A22438307002A76BD /* RWUsageListViewController.m */; };
 		ED4AFC42E801E2BE9684E1C7 /* libPods-iOSSizeClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C99FAFA44A2C1915FA0A28E /* libPods-iOSSizeClasses.a */; };
 /* End PBXBuildFile section */
@@ -176,6 +179,12 @@
 		8AE382F622FD62D5005D6FDB /* RWUIKitTableHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUIKitTableHeader.h; sourceTree = "<group>"; };
 		8AE382F722FD62D5005D6FDB /* RWUIKitTableHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWUIKitTableHeader.m; sourceTree = "<group>"; };
 		8AE382F922FD62E0005D6FDB /* RWUIKitTableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWUIKitTableHeader.xib; sourceTree = "<group>"; };
+		8AE777D32444426800CCE669 /* DownloadNSURLSessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSURLSessionVC.h; sourceTree = "<group>"; };
+		8AE777D42444426800CCE669 /* DownloadNSURLSessionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLSessionVC.m; sourceTree = "<group>"; };
+		8AE777D624447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadNSURLSessionOfflineVC.h; sourceTree = "<group>"; };
+		8AE777D724447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadNSURLSessionOfflineVC.m; sourceTree = "<group>"; };
+		8AE777D92445941100CCE669 /* DownloadAFNetworkingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadAFNetworkingVC.h; sourceTree = "<group>"; };
+		8AE777DA2445941100CCE669 /* DownloadAFNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadAFNetworkingVC.m; sourceTree = "<group>"; };
 		8AF32E9922438307002A76BD /* RWUsageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUsageListViewController.h; sourceTree = "<group>"; };
 		8AF32E9A22438307002A76BD /* RWUsageListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWUsageListViewController.m; sourceTree = "<group>"; };
 		A4C876E5217F46E6E47639C5 /* Pods-iOSSizeClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSizeClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSizeClasses/Pods-iOSSizeClasses.debug.xcconfig"; sourceTree = "<group>"; };
@@ -503,6 +512,12 @@
 				8AD08CC32433402C00F42228 /* DownloadNSURLConnectionResumeVC.h */,
 				8AD08CC42433402C00F42228 /* DownloadNSURLConnectionResumeVC.m */,
 				8AD08CC52433402C00F42228 /* DownloadNSURLConnectionResumeVC.xib */,
+				8AE777D32444426800CCE669 /* DownloadNSURLSessionVC.h */,
+				8AE777D42444426800CCE669 /* DownloadNSURLSessionVC.m */,
+				8AE777D624447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.h */,
+				8AE777D724447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.m */,
+				8AE777D92445941100CCE669 /* DownloadAFNetworkingVC.h */,
+				8AE777DA2445941100CCE669 /* DownloadAFNetworkingVC.m */,
 			);
 			path = DownloadUsage;
 			sourceTree = "<group>";
@@ -744,7 +759,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A90D4762359B78C001DB704 /* RWLayer.m in Sources */,
+				8AE777D824447B4E00CCE669 /* DownloadNSURLSessionOfflineVC.m in Sources */,
 				8AE382F522FD60EB005D6FDB /* RWXibViewController.m in Sources */,
+				8AE777DB2445941100CCE669 /* DownloadAFNetworkingVC.m in Sources */,
 				8A406C8722F9223E007669D8 /* ViewController.m in Sources */,
 				76223A3F2150D5A300BB0599 /* RWFloatView.m in Sources */,
 				8AC7BFAC2424B30300179441 /* DownloadNSURLConnectionVC.m in Sources */,
@@ -761,6 +778,7 @@
 				426735A51DF50081008830DC /* AppDelegate.m in Sources */,
 				8AC7BFAF2424B85A00179441 /* DownloadNSURLConnectionBigFileVC.m in Sources */,
 				8AF32E9B22438307002A76BD /* RWUsageListViewController.m in Sources */,
+				8AE777D52444426800CCE669 /* DownloadNSURLSessionVC.m in Sources */,
 				8AC7BFA424248E1000179441 /* DownloadViewController.m in Sources */,
 				8A406C6E22F9205D007669D8 /* MasUseListViewController.m in Sources */,
 				8A5C8FCE2304168100225064 /* FlutterRouter.m in Sources */,

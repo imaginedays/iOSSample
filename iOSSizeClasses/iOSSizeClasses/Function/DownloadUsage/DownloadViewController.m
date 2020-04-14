@@ -11,7 +11,11 @@
 #import "DownloadNSDataViewController.h"
 #import "DownloadNSURLConnectionVC.h"
 #import "DownloadNSURLConnectionBigFileVC.h"
+#import "DownloadNSURLConnectionResumeVC.h"
 
+#import "DownloadNSURLSessionVC.h"
+#import "DownloadNSURLSessionOfflineVC.h"
+#import "DownloadAFNetworkingVC.h"
 #import <WebKit/WebKit.h>
 
 @interface CellStateModel : NSObject
@@ -56,25 +60,14 @@
     model3.height = 0;
     [self.footerViewStateDic setObject:model3 forKey:@(2)];
     
-//    NSMutableArray *arr = [NSMutableArray arrayWithCapacity:0];
-//
-//    NSDictionary *title1 = @{@"title":@"文件下载断点续传-NSData"};
-//    [arr addObject:title1];
-//
-//    NSDictionary *title2 = @{@"title":@"文件下载断点续传-NSURLConnection"};
-//    [arr addObject:title2];
-//
-//    NSDictionary *title3 = @{@"title":@"文件下载断点续传-NSURLSession"};
-//    [arr addObject:title3];
-//
-//    NSDictionary *title4 = @{@"title":@"文件下载断点续传-AFNetworking"};
-//    [arr addObject:title4];
-    
      self.controllers = @[
                             [[DownloadNSDataViewController alloc] initWithTitle:@"文件下载-NSData"],
                             [[DownloadNSURLConnectionVC alloc]initWithTitle:@"文件下载-NSURLConnection"],
                             [[DownloadNSURLConnectionBigFileVC alloc]initWithTitle:@"文件下载-NSURLConnection-大文件下载"],
-                            
+                            [[DownloadNSURLConnectionResumeVC alloc]initWithNibName:@"DownloadNSURLConnectionResumeVC" bundle:nil],
+                             [[DownloadNSURLSessionVC alloc]initWithTitle:@"NSURLsession-使用"],
+                            [[DownloadNSURLSessionOfflineVC alloc]initWithTitle:@"NSURLsession-离线下载"],
+                            [[DownloadAFNetworkingVC alloc]initWithTitle:@"AFNetworking-下载"],
                             ];
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
@@ -120,24 +113,7 @@
 
 // Called after the user changes the selection.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-//    [self.footerViewStateDic enumerateKeysAndObjectsUsingBlock:^(NSNumber * _Nonnull key, CellStateModel * _Nonnull obj, BOOL * _Nonnull stop) {
-//        if ([key integerValue] == indexPath.section) {
-//             obj.isOpen = !obj.isOpen;
-//             obj.height = self.explandHeight;
-//            if (obj.isOpen) {
-//                obj.height = self.explandHeight;
-//            } else {
-//                obj.height = 0.0f;
-//            }
-//        } else {
-//            obj.isOpen = NO;
-//            obj.height = 0;
-//        }
-//    }];
-//    [self.tableView reloadData];
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];    
     UIViewController *viewController = self.controllers[indexPath.section];
     [self.navigationController pushViewController:viewController animated:YES];
 }
